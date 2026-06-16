@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "teamon-tools-mcp": {
+      "command": "/opt/teamon-clean/engine/current/dist/bun/teamon-clean-mcp-stdio",
+      "args": [
+        "--server",
+        "teamon-tools-mcp"
+      ],
+      "env": {
+        "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin",
+        "TEAMON_CLEAN_STATE_DB": "/var/lib/teamon-clean/control-plane.sqlite",
+        "TEAMON_CLEAN_INSTANCE_ROOT": "/var/lib/teamon-clean",
+        "TEAMON_CREDENTIAL_SECRET_DIR": "/var/lib/teamon-clean/credential-secrets",
+        "TEAMON_MCP_CONTEXT_FILE": "/var/lib/teamon-clean/co_demo/users/usr_owner/personal-agent/workspace/runtime/teamon-mcp-context.json",
+        "TEAMON_CLEAN_INTERNAL_URL": "http://127.0.0.1:18082",
+        "TEAMON_CLEAN_INTERNAL_CAPABILITY": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoidGVsZWdyYW0uc2VuZF9hcnRpZmFjdCIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl9vd25lciIsImFnZW50SWQiOiJhZ3Rfb3duZXIiLCJ0cmFjZUlkIjoidHJfdGVsZWdyYW1fb3duZXJfODY2NzU5Mzg0N19zZGtfd2FybXVwX293bmVyIiwicmVxdWVzdElkIjoicmVxX3RyX3RlbGVncmFtX293bmVyXzg2Njc1OTM4NDdfc2RrX3dhcm11cF9vd25lciIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6ODY2NzU5Mzg0Nzp1c2VyOjg2Njc1OTM4NDciLCJleHBpcmVzQXQiOjE3ODA2MjE2MTQ1MjAsInJhd1NlY3JldHNJbmNsdWRlZCI6ZmFsc2V9.2n7bCQTWv_HQl3-CnW8qdMVo8p6E7j6KAsW7i6siEsY",
+        "TEAMON_CLEAN_ENGINE_ROOT": "/opt/teamon-clean/engine/current",
+        "DEEPGRAM_API_KEY": "6dd80e7764d421071b43fa4aa5640a2cbd1b59f7",
+        "TEAMON_BROWSER_PUBLIC_WEB_ENABLED": "1",
+        "TEAMON_BROWSER_ACTION_SOCKET_PATH": "/run/teamon-clean-browser/browser-worker.sock",
+        "TEAMON_BROWSER_ACTION_CAPABILITY": "844bb861750e1f4b1ebcaea7e45c4d81a9dcb3d04d1f31b1abefbcbee3dbee8a"
+      }
+    }
+  }
+}

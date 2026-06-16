@@ -1,0 +1,24 @@
+# TeamON Clean — State sync exclusions (the secret boundary).
+# Generated from the instance layout: secrets, credentials, the control-plane DB, channel
+# state, and per-capsule runtime/cache NEVER leave the host. A secret must be uncommittable.
+
+control-plane.sqlite
+control-plane.sqlite-wal
+control-plane.sqlite-shm
+control-plane.sqlite-journal
+credential-secrets/
+secrets/
+telegram-gateway-state.json
+agents/*/runtime/
+agents/*/credentials/
+agents/*/browser-state/
+agents/*/user-credentials/
+agents/*/workspace/.cache/
+capsules/*/runtime/
+capsules/*/credentials/
+capsules/*/browser-state/
+capsules/*/user-credentials/
+capsules/*/workspace/.cache/
+*.tmp
+**/.DS_Store
+**/._*

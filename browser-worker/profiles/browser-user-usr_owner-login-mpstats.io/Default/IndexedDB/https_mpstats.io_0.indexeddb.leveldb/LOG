@@ -1,0 +1,2 @@
+2026/06/04-13:55:27.995 1693a Creating DB /var/lib/teamon-clean/browser-worker/profiles/browser-user-usr_owner-login-mpstats.io/Default/IndexedDB/https_mpstats.io_0.indexeddb.leveldb since it was missing.
+2026/06/04-13:55:28.096 1693a Reusing MANIFEST /var/lib/teamon-clean/browser-worker/profiles/browser-user-usr_owner-login-mpstats.io/Default/IndexedDB/https_mpstats.io_0.indexeddb.leveldb/MANIFEST-000001

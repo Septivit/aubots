@@ -1,0 +1,5 @@
+2026/06/04-13:55:24.907 16966 Creating DB /var/lib/teamon-clean/browser-worker/profiles/browser-user-usr_owner-login-mpstats.io/Default/Local Storage/leveldb since it was missing.
+2026/06/04-13:55:25.164 16966 Reusing MANIFEST /var/lib/teamon-clean/browser-worker/profiles/browser-user-usr_owner-login-mpstats.io/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/04-13:56:25.168 16968 Level-0 table #5: started
+2026/06/04-13:56:25.207 16968 Level-0 table #5: 27872 bytes OK
+2026/06/04-13:56:25.229 16968 Delete type=0 #3

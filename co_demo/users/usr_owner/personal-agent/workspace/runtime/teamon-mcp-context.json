@@ -1,0 +1,555 @@
+{
+  "company": {
+    "id": "co_demo",
+    "name": "Demo Company"
+  },
+  "actorUserId": "usr_owner",
+  "actorRole": "owner",
+  "actorAuthority": "owner",
+  "agentId": "agt_owner",
+  "agentKind": "personal",
+  "traceId": "tr_telegram_owner_8667593847_sdk_warmup_owner",
+  "requestId": "req_tr_telegram_owner_8667593847_sdk_warmup_owner",
+  "surface": {
+    "kind": "telegram",
+    "id": "telegram:chat:8667593847:user:8667593847",
+    "replyRoute": "telegram:company-main:8667593847"
+  },
+  "now": "2026-06-04T13:06:54.521Z",
+  "internalCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoidGVsZWdyYW0uc2VuZF9hcnRpZmFjdCIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl9vd25lciIsImFnZW50SWQiOiJhZ3Rfb3duZXIiLCJ0cmFjZUlkIjoidHJfdGVsZWdyYW1fb3duZXJfODY2NzU5Mzg0N19zZGtfd2FybXVwX293bmVyIiwicmVxdWVzdElkIjoicmVxX3RyX3RlbGVncmFtX293bmVyXzg2Njc1OTM4NDdfc2RrX3dhcm11cF9vd25lciIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6ODY2NzU5Mzg0Nzp1c2VyOjg2Njc1OTM4NDciLCJleHBpcmVzQXQiOjE3ODA2MjE2MTQ1MjAsInJhd1NlY3JldHNJbmNsdWRlZCI6ZmFsc2V9.2n7bCQTWv_HQl3-CnW8qdMVo8p6E7j6KAsW7i6siEsY",
+  "readModel": {
+    "abilityCatalog": {
+      "companyId": "co_demo",
+      "agentId": "agt_owner",
+      "userId": "usr_owner",
+      "abilities": [
+        {
+          "ref": "app:web-search",
+          "kind": "app",
+          "title": "Web Search",
+          "source": "hub",
+          "status": "not_assigned",
+          "usableNow": false,
+          "nextActions": [
+            "assign_connector"
+          ]
+        },
+        {
+          "ref": "browser:user:usr_owner:public-web",
+          "kind": "browser",
+          "title": "public-web",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "connector:agent:agt_owner:public-web-search",
+          "kind": "connector",
+          "title": "Public Web Search Provider",
+          "source": "capsule",
+          "status": "not_assigned",
+          "usableNow": false,
+          "nextActions": [
+            "assign_connector"
+          ]
+        },
+        {
+          "ref": "connector:public-web-search",
+          "kind": "connector",
+          "title": "Public Web Search Provider",
+          "source": "hub",
+          "status": "not_assigned",
+          "usableNow": false,
+          "nextActions": [
+            "assign_connector"
+          ]
+        },
+        {
+          "ref": "credential:user:usr_owner:START_URL_API_KEY",
+          "kind": "credential",
+          "title": "START_URL_API_KEY (user)",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "gateway:telegram:company-main",
+          "kind": "gateway",
+          "title": "Telegram company-main",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:connector.write_local",
+          "kind": "mcp",
+          "title": "connector.write_local",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:diagnostics.collect_support_bundle",
+          "kind": "mcp",
+          "title": "diagnostics.collect_support_bundle",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:diagnostics.read_runtime_status",
+          "kind": "mcp",
+          "title": "diagnostics.read_runtime_status",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:media.read_document",
+          "kind": "mcp",
+          "title": "media.read_document",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:memory.write",
+          "kind": "mcp",
+          "title": "memory.write",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.cancel_job",
+          "kind": "mcp",
+          "title": "scheduler.cancel_job",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.create_job",
+          "kind": "mcp",
+          "title": "scheduler.create_job",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.create_reminder",
+          "kind": "mcp",
+          "title": "scheduler.create_reminder",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.list_jobs",
+          "kind": "mcp",
+          "title": "scheduler.list_jobs",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:skill.read",
+          "kind": "mcp",
+          "title": "skill.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:skill.write_local",
+          "kind": "mcp",
+          "title": "skill.write_local",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.complete_auth_handoff",
+          "kind": "mcp",
+          "title": "browser.complete_auth_handoff",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.readiness",
+          "kind": "mcp",
+          "title": "browser.readiness",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.run_action",
+          "kind": "mcp",
+          "title": "browser.run_action",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.start_auth_handoff",
+          "kind": "mcp",
+          "title": "browser.start_auth_handoff",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:app.list",
+          "kind": "mcp",
+          "title": "app.list",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:context.ingest",
+          "kind": "mcp",
+          "title": "context.ingest",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:context.read",
+          "kind": "mcp",
+          "title": "context.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:context.search",
+          "kind": "mcp",
+          "title": "context.search",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:readiness.read",
+          "kind": "mcp",
+          "title": "readiness.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:trace.read",
+          "kind": "mcp",
+          "title": "trace.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-credential-mcp:credential.capture",
+          "kind": "mcp",
+          "title": "credential.capture",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-credential-mcp:credential.status",
+          "kind": "mcp",
+          "title": "credential.status",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-integration-mcp:integration.check_readiness",
+          "kind": "mcp",
+          "title": "integration.check_readiness",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-integration-mcp:integration.http_request",
+          "kind": "mcp",
+          "title": "integration.http_request",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-integration-mcp:integration.web_search",
+          "kind": "mcp",
+          "title": "integration.web_search",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-agent-mcp",
+          "kind": "mcp",
+          "title": "teamon-agent-mcp",
+          "source": "runtime",
+          "status": "unknown",
+          "usableNow": false,
+          "nextActions": [
+            "use_ready_tools"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-browser-app-tools",
+          "kind": "mcp",
+          "title": "teamon-browser-app-tools",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-context-mcp",
+          "kind": "mcp",
+          "title": "teamon-context-mcp",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-credential-mcp",
+          "kind": "mcp",
+          "title": "teamon-credential-mcp",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-integration-mcp",
+          "kind": "mcp",
+          "title": "teamon-integration-mcp",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "stt:engine:deepgram",
+          "kind": "media",
+          "title": "Deepgram STT",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "surface-pack:telegram:telegram-agent-pack",
+          "kind": "surface_pack",
+          "title": "Telegram Agent Pack",
+          "source": "capsule",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "name": "web-search",
+          "kind": "app",
+          "ref": "app:web-search",
+          "title": "Web Search",
+          "whatItDoes": "Finds current public web information through a configured search provider connector.",
+          "whenToUse": "Use when the user asks for current facts, news, prices, docs, or source-backed external information.",
+          "requiredRefs": [
+            "connector:agent:agt_owner:public-web-search"
+          ],
+          "readiness": {
+            "status": "not_assigned",
+            "usableNow": false,
+            "nextActions": [
+              "assign_connector"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.web_search",
+          "evidenceRequired": [
+            "sources_returned",
+            "web_search_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "public-web-search",
+          "kind": "connector",
+          "ref": "connector:agent:agt_owner:public-web-search",
+          "title": "Public Web Search Provider",
+          "whatItDoes": "Web Search technical provider binding.",
+          "whenToUse": "Use when Use when the user asks for current facts, news, prices, docs, or source-backed external information.",
+          "requiredRefs": [],
+          "readiness": {
+            "status": "not_assigned",
+            "usableNow": false,
+            "nextActions": [
+              "assign_connector"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.web_search",
+          "evidenceRequired": [
+            "sources_returned",
+            "web_search_completed"
+          ],
+          "source": "capsule"
+        }
+      ]
+    },
+    "lazyManifest": {
+      "items": [
+        {
+          "ref": "ability://app/web-search",
+          "kind": "app",
+          "title": "Web Search",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/public-web-search",
+          "kind": "connector",
+          "title": "Public Web Search Provider",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://app/web-search",
+          "kind": "readiness",
+          "title": "readiness://app/web-search",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/public-web-search",
+          "kind": "readiness",
+          "title": "readiness://connector/public-web-search",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "surface-pack://telegram/telegram-agent-pack/manifest",
+          "kind": "surface_pack",
+          "title": "Telegram Agent Pack",
+          "description": "Editable surface/media pack manifest is available through ability read tools; protected gateway kernel state is not included.",
+          "loader": "ability_read",
+          "source": "teamon"
+        }
+      ]
+    },
+    "blockingNextActions": [
+      "assign_connector"
+    ]
+  }
+}

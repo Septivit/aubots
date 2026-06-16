@@ -1,0 +1,284 @@
+{
+  "managedBy": "teamon-clean",
+  "agentId": "agt_tg_170677938",
+  "agentKind": "personal",
+  "mcpServers": [
+    {
+      "name": "teamon-context-mcp",
+      "source": "built-in",
+      "status": "ready",
+      "tools": [
+        "context.search",
+        "context.read",
+        "context.ingest",
+        "app.list",
+        "readiness.read",
+        "trace.read",
+        "trace.search",
+        "tool.help",
+        "activity.read"
+      ],
+      "toolStatuses": [
+        {
+          "name": "context.search",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "context.read",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "context.ingest",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "app.list",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "readiness.read",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "trace.read",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "trace.search",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "tool.help",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "activity.read",
+          "status": "ready",
+          "visibility": "agent_facing"
+        }
+      ]
+    },
+    {
+      "name": "teamon-agent-mcp",
+      "source": "built-in",
+      "status": "mixed",
+      "tools": [
+        "memory.write",
+        "proactivity.propose",
+        "skill.write_local",
+        "skill.read",
+        "connector.write_local",
+        "scheduler.create_reminder",
+        "scheduler.create_job",
+        "scheduler.list_jobs",
+        "scheduler.cancel_job",
+        "diagnostics.read_runtime_status",
+        "diagnostics.collect_support_bundle",
+        "media.read_document",
+        "gateway.issue_bridge_code"
+      ],
+      "toolStatuses": [
+        {
+          "name": "memory.write",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "proactivity.propose",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "skill.write_local",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "skill.read",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "connector.write_local",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "scheduler.create_reminder",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "scheduler.create_job",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "scheduler.list_jobs",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "scheduler.cancel_job",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "diagnostics.read_runtime_status",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "diagnostics.collect_support_bundle",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "media.read_document",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "gateway.edit_surface_pack",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "media.configure_provider",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "agent.propose_extension",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "terminal.shell",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "terminal.run_background",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "terminal.background_status",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "terminal.background_stop",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "agent.exec",
+          "status": "contract_only",
+          "visibility": "internal"
+        },
+        {
+          "name": "gateway.issue_bridge_code",
+          "status": "ready",
+          "visibility": "agent_facing"
+        }
+      ]
+    },
+    {
+      "name": "teamon-credential-mcp",
+      "source": "built-in",
+      "status": "ready",
+      "tools": [
+        "credential.status",
+        "credential.capture"
+      ],
+      "toolStatuses": [
+        {
+          "name": "credential.status",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "credential.capture",
+          "status": "ready",
+          "visibility": "agent_facing"
+        }
+      ]
+    },
+    {
+      "name": "teamon-integration-mcp",
+      "source": "built-in",
+      "status": "mixed",
+      "tools": [
+        "integration.check_readiness",
+        "integration.web_search",
+        "integration.http_request"
+      ],
+      "toolStatuses": [
+        {
+          "name": "integration.check_readiness",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "integration.web_search",
+          "status": "contract_only",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "integration.http_request",
+          "status": "ready",
+          "visibility": "agent_facing"
+        }
+      ]
+    },
+    {
+      "name": "teamon-browser-app-tools",
+      "source": "built-in",
+      "status": "mixed",
+      "tools": [
+        "browser.readiness",
+        "browser.start_auth_handoff",
+        "browser.complete_auth_handoff",
+        "browser.run_action",
+        "computer.run_action"
+      ],
+      "toolStatuses": [
+        {
+          "name": "browser.readiness",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "browser.start_auth_handoff",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "browser.complete_auth_handoff",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "browser.run_action",
+          "status": "ready",
+          "visibility": "agent_facing"
+        },
+        {
+          "name": "computer.run_action",
+          "status": "contract_only",
+          "visibility": "agent_facing"
+        }
+      ]
+    }
+  ]
+}
