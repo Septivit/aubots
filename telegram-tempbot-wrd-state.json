@@ -1,0 +1,748 @@
+{
+  "version": 1,
+  "nextUpdateOffset": 18135294,
+  "processedUpdateIds": [],
+  "bindings": [],
+  "agentSessions": [
+    {
+      "scopeKey": "co_demo:process:agt_tempbot-wrd:actor:usr_tg_5102475008:telegram:telegram:chat:5102475008:user:5102475008:runtime:agent_sdk:role-owner:workspace-native:mcp-allowtools-v6",
+      "sessionId": "f715ae0a-ea80-4509-bf5b-7cbcb5fd7329",
+      "userId": "usr_tg_5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "updatedAt": "2026-06-17T19:18:04.432Z"
+    }
+  ],
+  "microAckContext": [
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "user",
+      "messageKind": "text",
+      "textPreview": "/start",
+      "createdAt": "2026-06-17T14:39:51.656Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "assistant",
+      "messageKind": "text",
+      "textPreview": "Привет, Neymore! Я — **Тестовый**, агент компании Demo Company. Готов помочь. Что нужно сделать?",
+      "createdAt": "2026-06-17T14:39:59.456Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "user",
+      "messageKind": "text",
+      "textPreview": "/start",
+      "createdAt": "2026-06-17T14:39:59.542Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "assistant",
+      "messageKind": "text",
+      "textPreview": "Привет, Neymore! Я — **Тестовый**, агент компании Demo Company. Готов помочь. Что нужно сделать?",
+      "createdAt": "2026-06-17T14:40:03.632Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "user",
+      "messageKind": "text",
+      "textPreview": "Привет!",
+      "createdAt": "2026-06-17T14:40:03.827Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "assistant",
+      "messageKind": "text",
+      "textPreview": "Привет! Я на связи в твоем Personal Agent. Чем помочь?",
+      "createdAt": "2026-06-17T14:40:04.433Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "user",
+      "messageKind": "text",
+      "textPreview": "Привет",
+      "createdAt": "2026-06-17T14:40:04.546Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "assistant",
+      "messageKind": "text",
+      "textPreview": "Привет! Я на связи в твоем Personal Agent. Чем помочь?",
+      "createdAt": "2026-06-17T14:40:05.045Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "user",
+      "messageKind": "text",
+      "textPreview": "Ты тут?",
+      "createdAt": "2026-06-17T14:40:05.155Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "assistant",
+      "messageKind": "text",
+      "textPreview": "Да, тут! Слушаю.",
+      "createdAt": "2026-06-17T14:40:08.400Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "user",
+      "messageKind": "text",
+      "textPreview": "/start",
+      "createdAt": "2026-06-17T14:42:18.241Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "assistant",
+      "messageKind": "text",
+      "textPreview": "Привет, Neymore! Чем могу помочь?",
+      "createdAt": "2026-06-17T14:42:21.766Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "user",
+      "messageKind": "text",
+      "textPreview": "/start",
+      "createdAt": "2026-06-17T19:17:51.403Z"
+    },
+    {
+      "surfaceId": "telegram:chat:5102475008:user:5102475008",
+      "agentId": "agt_tempbot-wrd",
+      "role": "assistant",
+      "messageKind": "text",
+      "textPreview": "Привет, Neymore! Сессия перезапустилась — контекст предыдущего разговора недоступен, но память по компании у меня есть....",
+      "createdAt": "2026-06-17T19:18:05.511Z"
+    }
+  ],
+  "evidence": [
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_video_received",
+      "message": "Telegram video message received, duration 54s, file IMG_3505.MOV, mime video/mp4",
+      "action": "telegram_media",
+      "targetRef": "artifact:telegram:video:AgAD_6QAAm8ReEk"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_access_challenge",
+      "message": "Telegram user 777000 asked for access code",
+      "action": "telegram_access",
+      "targetRef": "gateway:telegram:telegram-tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:11713"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_direct_agent_routed",
+      "message": "Telegram user 5102475008 routed to direct Agent",
+      "action": "telegram_route",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_user_context_checkpointed",
+      "message": "Inbound Telegram user context was checkpointed before starting the agent turn",
+      "traceId": "tr_telegram_owner_5102475008_1",
+      "action": "telegram.context_checkpoint",
+      "targetRef": "telegram:5102475008:5102475008"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:1"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_micro_ack_sent",
+      "message": "Fast Telegram micro-ack generated locally while full model turn continued",
+      "traceId": "tr_telegram_owner_5102475008_1",
+      "action": "telegram_micro_ack",
+      "targetRef": "telegram:message:6"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_started",
+      "message": "Adopted micro-ack message as edit-based stream",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:6"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_content",
+      "message": "Partial model content delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:6"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_finalized",
+      "message": "Final Telegram reply delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:6"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_turn_latency",
+      "message": "mode=agent_turn turn_ok=true total_ms=7528 route_ms=4 queue_ms=5 typing_ms=1124 model_ms=5956 final_ms=203",
+      "traceId": "tr_telegram_owner_5102475008_1",
+      "action": "telegram_latency",
+      "targetRef": "telegram:update:18135283"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "claude_agent_sdk_turn",
+      "message": "Claude Agent SDK handled agt_tempbot-wrd with oauth-primary:d772a9ad7a8e model=claude-sonnet-4-6 model_source=safe_default effort=medium effort_source=agent_config complexity=routine system_prompt=claude_code prompt_projection=conversation workspace_tools=native workspace_proof=default_native max_turns=not_set prompt_chars=3287 packet_chars=90928 prompt_packet_chars=3257 ttft_ms=3857 duration_ms=4932 api_ms=6360 partial_events=15 agent_turn_gate_limit=1 agent_turn_gate_wait_ms=0",
+      "traceId": "tr_telegram_owner_5102475008_1",
+      "action": "agent_turn",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "turn_trace",
+      "message": "tr_telegram_owner_5102475008_1",
+      "traceId": "tr_telegram_owner_5102475008_1",
+      "action": "turn_trace_recorded",
+      "targetRef": "trace://tr_telegram_owner_5102475008_1"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_direct_agent_routed",
+      "message": "Telegram user 5102475008 routed to direct Agent",
+      "action": "telegram_route",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_user_context_checkpointed",
+      "message": "Inbound Telegram user context was checkpointed before starting the agent turn",
+      "traceId": "tr_telegram_owner_5102475008_2",
+      "action": "telegram.context_checkpoint",
+      "targetRef": "telegram:5102475008:5102475008"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:2"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_micro_ack_sent",
+      "message": "Fast Telegram micro-ack generated locally while full model turn continued",
+      "traceId": "tr_telegram_owner_5102475008_2",
+      "action": "telegram_micro_ack",
+      "targetRef": "telegram:message:7"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_started",
+      "message": "Adopted micro-ack message as edit-based stream",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:7"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_content",
+      "message": "Partial model content delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:7"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_finalized",
+      "message": "Final Telegram reply delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:7"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_turn_latency",
+      "message": "mode=agent_turn turn_ok=true total_ms=3845 route_ms=2 queue_ms=1 typing_ms=55 model_ms=3557 final_ms=210",
+      "traceId": "tr_telegram_owner_5102475008_2",
+      "action": "telegram_latency",
+      "targetRef": "telegram:update:18135284"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "claude_agent_sdk_turn",
+      "message": "Claude Agent SDK handled agt_tempbot-wrd with oauth-primary:d772a9ad7a8e model=claude-sonnet-4-6 model_source=safe_default effort=medium effort_source=agent_config complexity=routine system_prompt=claude_code prompt_projection=conversation workspace_tools=native workspace_proof=default_native max_turns=not_set prompt_chars=3287 packet_chars=90928 prompt_packet_chars=3257 ttft_ms=2555 duration_ms=2593 api_ms=8940 partial_events=9 agent_turn_gate_limit=1 agent_turn_gate_wait_ms=0",
+      "traceId": "tr_telegram_owner_5102475008_2",
+      "action": "agent_turn",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "turn_trace",
+      "message": "tr_telegram_owner_5102475008_2",
+      "traceId": "tr_telegram_owner_5102475008_2",
+      "action": "turn_trace_recorded",
+      "targetRef": "trace://tr_telegram_owner_5102475008_2"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_direct_agent_routed",
+      "message": "Telegram user 5102475008 routed to direct Agent",
+      "action": "telegram_route",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_user_context_checkpointed",
+      "message": "Inbound Telegram user context was checkpointed before starting the agent turn",
+      "traceId": "tr_telegram_owner_5102475008_3",
+      "action": "telegram.context_checkpoint",
+      "targetRef": "telegram:5102475008:5102475008"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:3"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "telegram_fast_small_talk_turn",
+      "message": "Fast small-talk route handled for usr_tg_5102475008 without a model turn",
+      "traceId": "tr_telegram_owner_5102475008_3",
+      "action": "agent_turn",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_fast_small_talk_delivered",
+      "message": "Fast Telegram small-talk reply delivered without a model turn",
+      "action": "telegram_reply",
+      "targetRef": "telegram:message:8"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_turn_latency",
+      "message": "mode=fast_small_talk turn_ok=true total_ms=300 route_ms=5 fast_reply_ms=213",
+      "traceId": "tr_telegram_owner_5102475008_3",
+      "action": "telegram_latency",
+      "targetRef": "telegram:update:18135285"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "turn_trace",
+      "message": "tr_telegram_owner_5102475008_3",
+      "traceId": "tr_telegram_owner_5102475008_3",
+      "action": "turn_trace_recorded",
+      "targetRef": "trace://tr_telegram_owner_5102475008_3"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_direct_agent_routed",
+      "message": "Telegram user 5102475008 routed to direct Agent",
+      "action": "telegram_route",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_user_context_checkpointed",
+      "message": "Inbound Telegram user context was checkpointed before starting the agent turn",
+      "traceId": "tr_telegram_owner_5102475008_4",
+      "action": "telegram.context_checkpoint",
+      "targetRef": "telegram:5102475008:5102475008"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:4"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "telegram_fast_small_talk_turn",
+      "message": "Fast small-talk route handled for usr_tg_5102475008 without a model turn",
+      "traceId": "tr_telegram_owner_5102475008_4",
+      "action": "agent_turn",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_fast_small_talk_delivered",
+      "message": "Fast Telegram small-talk reply delivered without a model turn",
+      "action": "telegram_reply",
+      "targetRef": "telegram:message:9"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_turn_latency",
+      "message": "mode=fast_small_talk turn_ok=true total_ms=254 route_ms=2 fast_reply_ms=188",
+      "traceId": "tr_telegram_owner_5102475008_4",
+      "action": "telegram_latency",
+      "targetRef": "telegram:update:18135286"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "turn_trace",
+      "message": "tr_telegram_owner_5102475008_4",
+      "traceId": "tr_telegram_owner_5102475008_4",
+      "action": "turn_trace_recorded",
+      "targetRef": "trace://tr_telegram_owner_5102475008_4"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_direct_agent_routed",
+      "message": "Telegram user 5102475008 routed to direct Agent",
+      "action": "telegram_route",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_user_context_checkpointed",
+      "message": "Inbound Telegram user context was checkpointed before starting the agent turn",
+      "traceId": "tr_telegram_owner_5102475008_5",
+      "action": "telegram.context_checkpoint",
+      "targetRef": "telegram:5102475008:5102475008"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:5"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_micro_ack_sent",
+      "message": "Fast Telegram micro-ack generated locally while full model turn continued",
+      "traceId": "tr_telegram_owner_5102475008_5",
+      "action": "telegram_micro_ack",
+      "targetRef": "telegram:message:10"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_started",
+      "message": "Adopted micro-ack message as edit-based stream",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:10"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_content",
+      "message": "Partial model content delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:10"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_finalized",
+      "message": "Final Telegram reply delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:10"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_turn_latency",
+      "message": "mode=agent_turn turn_ok=true total_ms=3083 route_ms=3 queue_ms=0 typing_ms=77 model_ms=2721 final_ms=91",
+      "traceId": "tr_telegram_owner_5102475008_5",
+      "action": "telegram_latency",
+      "targetRef": "telegram:update:18135287"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "claude_agent_sdk_turn",
+      "message": "Claude Agent SDK handled agt_tempbot-wrd with oauth-primary:d772a9ad7a8e model=claude-sonnet-4-6 model_source=safe_default effort=medium effort_source=agent_config complexity=routine system_prompt=claude_code prompt_projection=conversation workspace_tools=native workspace_proof=default_native max_turns=not_set prompt_chars=3288 packet_chars=90928 prompt_packet_chars=3257 ttft_ms=1655 duration_ms=1764 api_ms=10693 partial_events=7 agent_turn_gate_limit=1 agent_turn_gate_wait_ms=0",
+      "traceId": "tr_telegram_owner_5102475008_5",
+      "action": "agent_turn",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "turn_trace",
+      "message": "tr_telegram_owner_5102475008_5",
+      "traceId": "tr_telegram_owner_5102475008_5",
+      "action": "turn_trace_recorded",
+      "targetRef": "trace://tr_telegram_owner_5102475008_5"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_direct_agent_routed",
+      "message": "Telegram user 5102475008 routed to direct Agent",
+      "action": "telegram_route",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_user_context_checkpointed",
+      "message": "Inbound Telegram user context was checkpointed before starting the agent turn",
+      "traceId": "tr_telegram_owner_5102475008_12",
+      "action": "telegram.context_checkpoint",
+      "targetRef": "telegram:5102475008:5102475008"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:12"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_micro_ack_sent",
+      "message": "Fast Telegram micro-ack generated locally while full model turn continued",
+      "traceId": "tr_telegram_owner_5102475008_12",
+      "action": "telegram_micro_ack",
+      "targetRef": "telegram:message:13"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_started",
+      "message": "Adopted micro-ack message as edit-based stream",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:13"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_content",
+      "message": "Partial model content delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:13"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_finalized",
+      "message": "Final Telegram reply delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:13"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_turn_latency",
+      "message": "mode=agent_turn turn_ok=true total_ms=3326 route_ms=3 queue_ms=1 typing_ms=53 model_ms=2959 final_ms=119",
+      "traceId": "tr_telegram_owner_5102475008_12",
+      "action": "telegram_latency",
+      "targetRef": "telegram:update:18135288"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "claude_agent_sdk_turn",
+      "message": "Claude Agent SDK handled agt_tempbot-wrd with oauth-primary:d772a9ad7a8e model=claude-sonnet-4-6 model_source=safe_default effort=medium effort_source=agent_config complexity=routine system_prompt=claude_code prompt_projection=conversation workspace_tools=native workspace_proof=default_native max_turns=not_set prompt_chars=3287 packet_chars=90930 prompt_packet_chars=3257 ttft_ms=1899 duration_ms=1972 api_ms=12647 partial_events=7 agent_turn_gate_limit=1 agent_turn_gate_wait_ms=0",
+      "traceId": "tr_telegram_owner_5102475008_12",
+      "action": "agent_turn",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "turn_trace",
+      "message": "tr_telegram_owner_5102475008_12",
+      "traceId": "tr_telegram_owner_5102475008_12",
+      "action": "turn_trace_recorded",
+      "targetRef": "trace://tr_telegram_owner_5102475008_12"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_photo_received",
+      "message": "Telegram photo message received",
+      "action": "telegram_media",
+      "targetRef": "artifact:telegram:photo:AQADCBdrG6G6mEl"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_access_challenge",
+      "message": "Telegram user 777000 asked for access code",
+      "action": "telegram_access",
+      "targetRef": "gateway:telegram:telegram-tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:11716"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reply_context_received",
+      "message": "Telegram reply context received with photo media ref",
+      "action": "telegram_reply_context",
+      "targetRef": "telegram:message:11716"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_access_challenge",
+      "message": "Telegram user 7962992747 asked for access code",
+      "action": "telegram_access",
+      "targetRef": "gateway:telegram:telegram-tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:11718"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_direct_agent_routed",
+      "message": "Telegram user 5102475008 routed to direct Agent",
+      "action": "telegram_route",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_user_context_checkpointed",
+      "message": "Inbound Telegram user context was checkpointed before starting the agent turn",
+      "traceId": "tr_telegram_owner_5102475008_14",
+      "action": "telegram.context_checkpoint",
+      "targetRef": "telegram:5102475008:5102475008"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_reaction_seen",
+      "message": "Telegram reaction 👀 set on inbound message",
+      "action": "telegram_reaction",
+      "targetRef": "telegram:message:14"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_micro_ack_sent",
+      "message": "Fast Telegram micro-ack generated locally while full model turn continued",
+      "traceId": "tr_telegram_owner_5102475008_14",
+      "action": "telegram_micro_ack",
+      "targetRef": "telegram:message:15"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_started",
+      "message": "Adopted micro-ack message as edit-based stream",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:15"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_content",
+      "message": "Partial model content delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:15"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_stream_finalized",
+      "message": "Final Telegram reply delivered by editing stream placeholder",
+      "action": "telegram_stream",
+      "targetRef": "telegram:message:15"
+    },
+    {
+      "ok": true,
+      "source": "control",
+      "code": "telegram_turn_latency",
+      "message": "mode=agent_turn turn_ok=true total_ms=13982 route_ms=5 queue_ms=4 typing_ms=150 model_ms=13694 final_ms=112",
+      "traceId": "tr_telegram_owner_5102475008_14",
+      "action": "telegram_latency",
+      "targetRef": "telegram:update:18135292"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "claude_agent_sdk_turn",
+      "message": "Claude Agent SDK handled agt_tempbot-wrd with oauth-primary:d772a9ad7a8e model=claude-sonnet-4-6 model_source=safe_default effort=high effort_source=recovery_escalation complexity=routine system_prompt=claude_code prompt_projection=conversation workspace_tools=native workspace_proof=default_native max_turns=not_set prompt_chars=3287 packet_chars=91827 prompt_packet_chars=3257 ttft_ms=6200 duration_ms=7475 api_ms=6951 partial_events=18 after session reset agent_turn_gate_limit=1 agent_turn_gate_wait_ms=110",
+      "traceId": "tr_telegram_owner_5102475008_14",
+      "action": "agent_turn",
+      "targetRef": "agt_tempbot-wrd"
+    },
+    {
+      "ok": true,
+      "source": "runtime",
+      "code": "turn_trace",
+      "message": "tr_telegram_owner_5102475008_14",
+      "traceId": "tr_telegram_owner_5102475008_14",
+      "action": "turn_trace_recorded",
+      "targetRef": "trace://tr_telegram_owner_5102475008_14"
+    }
+  ]
+}

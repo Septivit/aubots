@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "teamon-tools-mcp": {
+      "command": "/opt/teamon-clean/engine/current/dist/bun/teamon-clean-mcp-stdio",
+      "args": [
+        "--server",
+        "teamon-tools-mcp"
+      ],
+      "env": {
+        "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin",
+        "TEAMON_CLEAN_STATE_DB": "/var/lib/teamon-clean-tempbot-wrd/shared-instance/control-plane.sqlite",
+        "TEAMON_CLEAN_INSTANCE_ROOT": "/var/lib/teamon-clean-tempbot-wrd/shared-instance",
+        "TEAMON_CREDENTIAL_SECRET_DIR": "/var/lib/teamon-clean-tempbot-wrd/shared-instance/credential-secrets",
+        "TEAMON_MCP_CONTEXT_FILE": "/var/lib/teamon-clean-tempbot-wrd/shared-instance/co_demo/process-agents/tempbot-wrd/workspace/runtime/teamon-mcp-context.json",
+        "TEAMON_CLEAN_INTERNAL_URL": "http://127.0.0.1:8446",
+        "TEAMON_CLEAN_INTERNAL_CAPABILITY": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoidGVsZWdyYW0uc2VuZF9hcnRpZmFjdCIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z181MTAyNDc1MDA4IiwiYWdlbnRJZCI6ImFndF90ZW1wYm90LXdyZCIsInRyYWNlSWQiOiJ0cl90ZWxlZ3JhbV9vd25lcl81MTAyNDc1MDA4X3Nka193YXJtdXBfb3duZXIiLCJyZXF1ZXN0SWQiOiJyZXFfdHJfdGVsZWdyYW1fb3duZXJfNTEwMjQ3NTAwOF9zZGtfd2FybXVwX293bmVyIiwic3VyZmFjZUlkIjoidGVsZWdyYW06Y2hhdDo1MTAyNDc1MDA4OnVzZXI6NTEwMjQ3NTAwOCIsImV4cGlyZXNBdCI6MTc4MTc3MzI4MDcyNCwicmF3U2VjcmV0c0luY2x1ZGVkIjpmYWxzZX0.bwN4XLNt6w8EfGBZ0NDGRdJ2_KqISemwSG5DTtZRxnU",
+        "TEAMON_CLEAN_INTERNAL_BROWSER_CAPABILITY": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmJyb3dzZXJfYWN0aW9uIiwiY29tcGFueUlkIjoiY29fZGVtbyIsImFjdG9yVXNlcklkIjoidXNyX3RnXzUxMDI0NzUwMDgiLCJhZ2VudElkIjoiYWd0X3RlbXBib3Qtd3JkIiwidHJhY2VJZCI6InRyX3RlbGVncmFtX293bmVyXzUxMDI0NzUwMDhfc2RrX3dhcm11cF9vd25lciIsInJlcXVlc3RJZCI6InJlcV90cl90ZWxlZ3JhbV9vd25lcl81MTAyNDc1MDA4X3Nka193YXJtdXBfb3duZXIiLCJzdXJmYWNlSWQiOiJ0ZWxlZ3JhbTpjaGF0OjUxMDI0NzUwMDg6dXNlcjo1MTAyNDc1MDA4IiwiZXhwaXJlc0F0IjoxNzgxNzczMjgwNzI1LCJyYXdTZWNyZXRzSW5jbHVkZWQiOmZhbHNlfQ.GzaCwKno625QGmDlvbUcBwv1-ULeXX0B1k7lHsctYNI",
+        "TEAMON_CLEAN_INTERNAL_COMPUTER_CAPABILITY": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmNvbXB1dGVyX2FjdGlvbiIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z181MTAyNDc1MDA4IiwiYWdlbnRJZCI6ImFndF90ZW1wYm90LXdyZCIsInRyYWNlSWQiOiJ0cl90ZWxlZ3JhbV9vd25lcl81MTAyNDc1MDA4X3Nka193YXJtdXBfb3duZXIiLCJyZXF1ZXN0SWQiOiJyZXFfdHJfdGVsZWdyYW1fb3duZXJfNTEwMjQ3NTAwOF9zZGtfd2FybXVwX293bmVyIiwic3VyZmFjZUlkIjoidGVsZWdyYW06Y2hhdDo1MTAyNDc1MDA4OnVzZXI6NTEwMjQ3NTAwOCIsImV4cGlyZXNBdCI6MTc4MTc3MzI4MDcyNSwicmF3U2VjcmV0c0luY2x1ZGVkIjpmYWxzZX0.nX9I99pM5lxPVKzl8B1JYC3IOgMoJlv95PWjNar1mhE",
+        "TEAMON_SITES_ROOT": "/srv/teamon-sites",
+        "TEAMON_TELEGRAM_OWNER_ID": "5102475008",
+        "TEAMON_CLEAN_ENGINE_ROOT": "/opt/teamon-clean/engine/current",
+        "GROQ_API_KEY": "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",
+        "TEAMON_BROWSER_PUBLIC_WEB_ENABLED": "1",
+        "TEAMON_BROWSER_ACTION_SOCKET_PATH": "/run/teamon-clean-browser/browser-worker.sock",
+        "TEAMON_BROWSER_ACTION_CAPABILITY": "844bb861750e1f4b1ebcaea7e45c4d81a9dcb3d04d1f31b1abefbcbee3dbee8a"
+      }
+    }
+  }
+}

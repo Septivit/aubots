@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sheetsms-470810",
+  "private_key_id": "6e08611f9f129c71b0beb8a859a7dff9a752db17",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCtG5baMe0udwp\nTnIFReQIP2T+7oTtrlFPrO0WPlb6DIbpIKKljvhHinlVf5G2g3d0gCEU6pFY2Ez1\nPo97Uge9/lNnTQH6LRSgZ8oaeKU/bcQHTGV8cWHYFoSv4aGXTQtXGKd7NGr946Pz\nrmfG0USlZ5ONh/5NSoP6x5k4E6eg4xuPvTpw5LaQsADWHQNh2K+ujk74TEGjfpoc\nXHD/vLIxgSKKZ3UKepgfioMMe9+vxKXDwFH3YD4ek+yvWrkb3kuDUYMRZubh+U7D\nhI4BMJK5ycilAXz+TGAZ+5sNNfNEZktVntj8RBHG55gBx+nDQYbfqFZtS2WnDnDD\nGgQcVLevAgMBAAECggEACQDb64ksVuyTRCu29Qx2z3TTAEDaT71UUDlgWzt1vSlQ\nIb6bFsnGLFS4aJ42CDkLEI2OOg/gubmC0YJbkynHZt84TxoOAdoMzqAOBexXQ9gZ\nDPdY6Ai8LAhaiWGHHd53rEbdE8LoQaZBohaKAPUTVgy0k4Ja3YsZEEMjkCbEhRl2\npLMglwi1s5tNLQr/aRMTzwxkD7CPqurKLRBymi6KF6U8QPsuLpiuOSxcG0i50+Aj\nt21bXhTDWY2D+B8lfFqf9v/0E3zEXSuzIZB5VOBI6mf9abNihytShzWB9SAcYsw3\n5Xwepp3WE+EtAGKIg+YOJ7Bcc4oMlVm43d9aumGG5QKBgQD0d+z/hLlfj7mhy7vg\n0eFQ5YtjTsm2r1RBhyY27WUcoJaOa76wMDQ0TBp78TphCM9d0b4ifoojMreQvYXV\nu+xxu+S58Iq2U+WVik6MoEEsL/4iKlxrWZsSZD/4FO3to5moEYAdVwGg4+6FXw4w\nyfh1kw8rStLZzTOK5mr1aZ2HswKBgQDL45XVdHxfjRr3komk/CMNrdYDWbaiJNOK\nZJYXYkkIDj+x9pTnVkuO4McOGw8N0/GObwZMv2ddaxc8bJAzioKykoIxizoNrBoz\n27BVURYbgj42iMTlgDZVkDkm0sTVBVCyfx/HB5bFuRgrYa1bAGrlJAHHQIBkXh3I\nipkgtqoSFQKBgQCljEC1l89gYxe19R05VWdbPNZzXXtDdt97sGW0dHYwOJ87usLa\n1QnFEHQu0mBSLYEfa1VyTnaE92dPYMgswKGRM0fkknuclJu39HzUxgDcR3O09zK2\nj2tvvOuEt8eXUV5Qbelv9OdpaHCxaHlXmK3kEL4I9xZp34ez2+06W1cN+QKBgQCb\n3RtJ1obNtN0MraUzztwtNNsKLKcFRQnCHirvLV+PHPVsYohqYPnZ+9Ov4NedRoy+\nyfkS6q9mJtvYgVWrUROg14dXwItcsFhHlIY0coxn8yUEI4IBwAXJWzuVhkKaZjnO\neogcapzEAj+Lylvv2V3eVaxWWeTM1XYHPIzbCUjyEQKBgAfuI0yfw1ysvstdJOyi\nYQ+/l1/jU8vTgli3QsBAbqLNSW62FLZLGGnAuNrGrQV3H8KRi2g7DxUS75GVS32A\njdudtqaXGFe1Cl6YzVrmETZ4D3CDWEzwxePC82Tq+DOa0RVpeVRq0HsmRM2GVuMW\nhn++dFcNfGCR81uGZayk3KAO\n-----END PRIVATE KEY-----\n",
+  "client_email": "aibots-finance@sheetsms-470810.iam.gserviceaccount.com",
+  "client_id": "102721943050181911737",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aibots-finance%40sheetsms-470810.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

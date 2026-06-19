@@ -1,0 +1,3 @@
+2026/06/18-17:24:11.307 db59d Reusing MANIFEST /var/lib/private/teamon-clean/browser-worker/profiles/browser-user-usr_tg_1643866588-login-app.powerbi.com/Default/IndexedDB/https_app.powerbi.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/18-17:24:11.307 db59d Recovering log #3
+2026/06/18-17:24:11.307 db59d Reusing old log /var/lib/private/teamon-clean/browser-worker/profiles/browser-user-usr_tg_1643866588-login-app.powerbi.com/Default/IndexedDB/https_app.powerbi.com_0.indexeddb.leveldb/000003.log 

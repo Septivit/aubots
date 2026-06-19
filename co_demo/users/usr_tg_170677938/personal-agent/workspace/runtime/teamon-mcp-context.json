@@ -19,16 +19,28 @@
     "id": "telegram:chat:170677938:user:170677938",
     "replyRoute": "telegram:company-main-bridge:170677938"
   },
-  "now": "2026-06-16T16:51:38.448Z",
-  "internalCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoidGVsZWdyYW0uc2VuZF9hcnRpZmFjdCIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z18xNzA2Nzc5MzgiLCJhZ2VudElkIjoiYWd0X3RnXzE3MDY3NzkzOCIsInRyYWNlSWQiOiJ0cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInJlcXVlc3RJZCI6InJlcV90cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6MTcwNjc3OTM4OnVzZXI6MTcwNjc3OTM4IiwiZXhwaXJlc0F0IjoxNzgxNjcxODk4NDQ3LCJyYXdTZWNyZXRzSW5jbHVkZWQiOmZhbHNlfQ.y7x8WEittMZ11EiFIELaEo52tXjJTIOeGlFeq0TwsQs",
-  "internalBrowserCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmJyb3dzZXJfYWN0aW9uIiwiY29tcGFueUlkIjoiY29fZGVtbyIsImFjdG9yVXNlcklkIjoidXNyX3RnXzE3MDY3NzkzOCIsImFnZW50SWQiOiJhZ3RfdGdfMTcwNjc3OTM4IiwidHJhY2VJZCI6InRyX3RlbGVncmFtX293bmVyXzE3MDY3NzkzOF9zZGtfd2FybXVwX293bmVyIiwicmVxdWVzdElkIjoicmVxX3RyX3RlbGVncmFtX293bmVyXzE3MDY3NzkzOF9zZGtfd2FybXVwX293bmVyIiwic3VyZmFjZUlkIjoidGVsZWdyYW06Y2hhdDoxNzA2Nzc5Mzg6dXNlcjoxNzA2Nzc5MzgiLCJleHBpcmVzQXQiOjE3ODE2NzE4OTg0NDgsInJhd1NlY3JldHNJbmNsdWRlZCI6ZmFsc2V9.QuTWqCsxtHHeol0PrSCSpcPg5m8kGsKOF0dkK4o-CfI",
-  "internalComputerCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmNvbXB1dGVyX2FjdGlvbiIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z18xNzA2Nzc5MzgiLCJhZ2VudElkIjoiYWd0X3RnXzE3MDY3NzkzOCIsInRyYWNlSWQiOiJ0cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInJlcXVlc3RJZCI6InJlcV90cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6MTcwNjc3OTM4OnVzZXI6MTcwNjc3OTM4IiwiZXhwaXJlc0F0IjoxNzgxNjcxODk4NDQ4LCJyYXdTZWNyZXRzSW5jbHVkZWQiOmZhbHNlfQ.WSiAnfOlaSRcoyswmtTngu2fC7eisP2K9spuwfCImkg",
+  "now": "2026-06-19T17:07:10.255Z",
+  "internalCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoidGVsZWdyYW0uc2VuZF9hcnRpZmFjdCIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z18xNzA2Nzc5MzgiLCJhZ2VudElkIjoiYWd0X3RnXzE3MDY3NzkzOCIsInRyYWNlSWQiOiJ0cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInJlcXVlc3RJZCI6InJlcV90cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6MTcwNjc3OTM4OnVzZXI6MTcwNjc3OTM4IiwiZXhwaXJlc0F0IjoxNzgxOTMyMDMwMjU1LCJyYXdTZWNyZXRzSW5jbHVkZWQiOmZhbHNlfQ.87aSNhu1NXwBsKfv9WCQ6UQnUfeuCaSMaoqWySxW0Ws",
+  "internalMessageCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoidGVsZWdyYW0uc2VuZF9tZXNzYWdlIiwiY29tcGFueUlkIjoiY29fZGVtbyIsImFjdG9yVXNlcklkIjoidXNyX3RnXzE3MDY3NzkzOCIsImFnZW50SWQiOiJhZ3RfdGdfMTcwNjc3OTM4IiwidHJhY2VJZCI6InRyX3RlbGVncmFtX293bmVyXzE3MDY3NzkzOF9zZGtfd2FybXVwX293bmVyIiwicmVxdWVzdElkIjoicmVxX3RyX3RlbGVncmFtX293bmVyXzE3MDY3NzkzOF9zZGtfd2FybXVwX293bmVyIiwic3VyZmFjZUlkIjoidGVsZWdyYW06Y2hhdDoxNzA2Nzc5Mzg6dXNlcjoxNzA2Nzc5MzgiLCJleHBpcmVzQXQiOjE3ODE5MzIwMzAyNTUsInJhd1NlY3JldHNJbmNsdWRlZCI6ZmFsc2V9.acgUGhSt_nH0iOXHp1ep1KPy9yVameV3fEKo-e6VtWI",
+  "internalBrowserCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmJyb3dzZXJfYWN0aW9uIiwiY29tcGFueUlkIjoiY29fZGVtbyIsImFjdG9yVXNlcklkIjoidXNyX3RnXzE3MDY3NzkzOCIsImFnZW50SWQiOiJhZ3RfdGdfMTcwNjc3OTM4IiwidHJhY2VJZCI6InRyX3RlbGVncmFtX293bmVyXzE3MDY3NzkzOF9zZGtfd2FybXVwX293bmVyIiwicmVxdWVzdElkIjoicmVxX3RyX3RlbGVncmFtX293bmVyXzE3MDY3NzkzOF9zZGtfd2FybXVwX293bmVyIiwic3VyZmFjZUlkIjoidGVsZWdyYW06Y2hhdDoxNzA2Nzc5Mzg6dXNlcjoxNzA2Nzc5MzgiLCJleHBpcmVzQXQiOjE3ODE5MzIwMzAyNTUsInJhd1NlY3JldHNJbmNsdWRlZCI6ZmFsc2V9.t-lfRFjqfqVKup3EqWrLk5XoqQTM2u7HlqXRbvu7XKw",
+  "internalComputerCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmNvbXB1dGVyX2FjdGlvbiIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z18xNzA2Nzc5MzgiLCJhZ2VudElkIjoiYWd0X3RnXzE3MDY3NzkzOCIsInRyYWNlSWQiOiJ0cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInJlcXVlc3RJZCI6InJlcV90cl90ZWxlZ3JhbV9vd25lcl8xNzA2Nzc5Mzhfc2RrX3dhcm11cF9vd25lciIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6MTcwNjc3OTM4OnVzZXI6MTcwNjc3OTM4IiwiZXhwaXJlc0F0IjoxNzgxOTMyMDMwMjU1LCJyYXdTZWNyZXRzSW5jbHVkZWQiOmZhbHNlfQ.M-uypx-0tblc3DiLWgYKSPxw2NIrGl8Mvv3qiBPwEyQ",
   "readModel": {
     "abilityCatalog": {
       "companyId": "co_demo",
       "agentId": "agt_tg_170677938",
       "userId": "usr_tg_170677938",
       "abilities": [
+        {
+          "ref": "app:google-sheets",
+          "kind": "app",
+          "title": "Google Таблицы (Финансы)",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
+          ]
+        },
         {
           "ref": "app:telegram_api_wb",
           "kind": "app",
@@ -49,6 +61,17 @@
           "usableNow": true,
           "nextActions": [
             "use_capability"
+          ]
+        },
+        {
+          "ref": "app:telegram_smm_outgoing",
+          "kind": "app",
+          "title": "Telegram SMM Bot — исходящие сообщения в группы",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
           ]
         },
         {
@@ -85,6 +108,61 @@
           ]
         },
         {
+          "ref": "connector:company:co_demo:google_sheets_finansy",
+          "kind": "connector",
+          "title": "Google Таблицы (Финансы)",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
+          ]
+        },
+        {
+          "ref": "connector:company:co_demo:google_sheets_ozon",
+          "kind": "connector",
+          "title": "Google Таблицы (Ozon)",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
+          ]
+        },
+        {
+          "ref": "connector:company:co_demo:google_sheets_smm",
+          "kind": "connector",
+          "title": "Google Таблицы (SMM)",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
+          ]
+        },
+        {
+          "ref": "connector:company:co_demo:google_sheets_wb",
+          "kind": "connector",
+          "title": "Google Таблицы (WB)",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
+          ]
+        },
+        {
+          "ref": "connector:company:co_demo:google_sheets_zavod",
+          "kind": "connector",
+          "title": "Google Таблицы (Завод)",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
+          ]
+        },
+        {
           "ref": "connector:company:co_demo:telegram_api_wb",
           "kind": "connector",
           "title": "Telegram API (WB bot)",
@@ -107,6 +185,37 @@
           ]
         },
         {
+          "ref": "connector:company:co_demo:telegram_smm_outgoing",
+          "kind": "connector",
+          "title": "Telegram SMM Bot — исходящие сообщения в группы",
+          "source": "hub",
+          "status": "needs_auth",
+          "usableNow": false,
+          "nextActions": [
+            "connect_credential"
+          ]
+        },
+        {
+          "ref": "connector:google-sheets",
+          "kind": "connector",
+          "title": "Google Таблицы",
+          "source": "hub",
+          "status": "unknown",
+          "usableNow": false,
+          "nextActions": []
+        },
+        {
+          "ref": "credential:company:co_demo:CLAUDE_OAUTH",
+          "kind": "credential",
+          "title": "CLAUDE_OAUTH (company)",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
           "ref": "credential:company:co_demo:TELEGRAM_BOT_TOKEN_WB",
           "kind": "credential",
           "title": "TELEGRAM_BOT_TOKEN_WB (company)",
@@ -121,6 +230,17 @@
           "ref": "credential:user:usr_tg_170677938:API",
           "kind": "credential",
           "title": "API (user)",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "credential:user:usr_tg_170677938:TELEGRAM_BOT_TOKEN",
+          "kind": "credential",
+          "title": "TELEGRAM_BOT_TOKEN (user)",
           "source": "runtime",
           "status": "ready",
           "usableNow": true,
@@ -571,6 +691,31 @@
       ],
       "cards": [
         {
+          "name": "google-sheets",
+          "kind": "app",
+          "ref": "app:google-sheets",
+          "title": "Google Таблицы (Финансы)",
+          "whatItDoes": "Work with Google Таблицы (Финансы) through its assigned connector.",
+          "whenToUse": "Use when a user asks for work backed by Google Таблицы (Финансы).",
+          "requiredRefs": [
+            "connector:company:co_demo:google_sheets_finansy",
+            "credential:agent:agt_finansy:GOOGLE_SHEETS_BEARER"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
           "name": "telegram_api_wb",
           "kind": "app",
           "ref": "app:telegram_api_wb",
@@ -611,6 +756,32 @@
             "usableNow": true,
             "nextActions": [
               "use_capability"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "telegram_smm_outgoing",
+          "kind": "app",
+          "ref": "app:telegram_smm_outgoing",
+          "title": "Telegram SMM Bot — исходящие сообщения в группы",
+          "whatItDoes": "Work with Telegram SMM Bot — исходящие сообщения в группы through its assigned connector.",
+          "whenToUse": "Use when a user asks for work backed by Telegram SMM Bot — исходящие сообщения в группы.",
+          "requiredRefs": [
+            "connector:company:co_demo:telegram_smm_outgoing",
+            "credential:agent:agt_smm:TELEGRAM_BOT_TOKEN",
+            "credential:user:usr_tg_170677938:TELEGRAM_BOT_TOKEN"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
             ]
           },
           "loader": "ability_read",
@@ -669,6 +840,126 @@
           "source": "capsule"
         },
         {
+          "name": "google_sheets_finansy",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:google_sheets_finansy",
+          "title": "Google Таблицы (Финансы)",
+          "whatItDoes": "Google Таблицы (Финансы) technical api binding.",
+          "whenToUse": "Use when a task needs the Google Таблицы (Финансы) connection.",
+          "requiredRefs": [
+            "credential:agent:agt_finansy:GOOGLE_SHEETS_BEARER"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "google_sheets_ozon",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:google_sheets_ozon",
+          "title": "Google Таблицы (Ozon)",
+          "whatItDoes": "Google Таблицы (Ozon) technical api binding.",
+          "whenToUse": "Use when a task needs the Google Таблицы (Ozon) connection.",
+          "requiredRefs": [
+            "credential:agent:agt_ozon:GOOGLE_SHEETS_TOKEN"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "google_sheets_smm",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:google_sheets_smm",
+          "title": "Google Таблицы (SMM)",
+          "whatItDoes": "Google Таблицы (SMM) technical api binding.",
+          "whenToUse": "Use when a task needs the Google Таблицы (SMM) connection.",
+          "requiredRefs": [
+            "credential:agent:agt_smm:GOOGLE_SHEETS_SA"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "google_sheets_wb",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:google_sheets_wb",
+          "title": "Google Таблицы (WB)",
+          "whatItDoes": "Google Таблицы (WB) technical api binding.",
+          "whenToUse": "Use when a task needs the Google Таблицы (WB) connection.",
+          "requiredRefs": [
+            "credential:agent:agt_septivit-wb:GOOGLE_SHEETS_TOKEN"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "google_sheets_zavod",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:google_sheets_zavod",
+          "title": "Google Таблицы (Завод)",
+          "whatItDoes": "Google Таблицы (Завод) technical api binding.",
+          "whenToUse": "Use when a task needs the Google Таблицы (Завод) connection.",
+          "requiredRefs": [
+            "credential:agent:agt_zavod:GOOGLE_SHEETS_TOKEN"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
           "name": "telegram_api_wb",
           "kind": "connector",
           "ref": "connector:company:co_demo:telegram_api_wb",
@@ -715,11 +1006,44 @@
             "integration_http_request_completed"
           ],
           "source": "hub"
+        },
+        {
+          "name": "telegram_smm_outgoing",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:telegram_smm_outgoing",
+          "title": "Telegram SMM Bot — исходящие сообщения в группы",
+          "whatItDoes": "Telegram SMM Bot — исходящие сообщения в группы technical api binding.",
+          "whenToUse": "Use when a task needs the Telegram SMM Bot — исходящие сообщения в группы connection.",
+          "requiredRefs": [
+            "credential:agent:agt_smm:TELEGRAM_BOT_TOKEN",
+            "credential:user:usr_tg_170677938:TELEGRAM_BOT_TOKEN"
+          ],
+          "readiness": {
+            "status": "needs_auth",
+            "usableNow": false,
+            "nextActions": [
+              "connect_credential"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
         }
       ]
     },
     "lazyManifest": {
       "items": [
+        {
+          "ref": "ability://app/google-sheets",
+          "kind": "app",
+          "title": "Google Таблицы (Финансы)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
         {
           "ref": "ability://app/telegram_api_wb",
           "kind": "app",
@@ -737,6 +1061,14 @@
           "source": "teamon"
         },
         {
+          "ref": "ability://app/telegram_smm_outgoing",
+          "kind": "app",
+          "title": "Telegram SMM Bot — исходящие сообщения в группы",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
           "ref": "ability://app/web-search",
           "kind": "app",
           "title": "Web Search",
@@ -749,6 +1081,46 @@
           "kind": "connector",
           "title": "example-com",
           "description": "Resource details are available through ability/context read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/google_sheets_finansy",
+          "kind": "connector",
+          "title": "Google Таблицы (Финансы)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/google_sheets_ozon",
+          "kind": "connector",
+          "title": "Google Таблицы (Ozon)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/google_sheets_smm",
+          "kind": "connector",
+          "title": "Google Таблицы (SMM)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/google_sheets_wb",
+          "kind": "connector",
+          "title": "Google Таблицы (WB)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/google_sheets_zavod",
+          "kind": "connector",
+          "title": "Google Таблицы (Завод)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
           "loader": "ability_read",
           "source": "teamon"
         },
@@ -801,6 +1173,22 @@
           "source": "teamon"
         },
         {
+          "ref": "ability://connector/telegram_smm_outgoing",
+          "kind": "connector",
+          "title": "Telegram SMM Bot — исходящие сообщения в группы",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://app/google-sheets",
+          "kind": "readiness",
+          "title": "readiness://app/google-sheets",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
           "ref": "readiness://app/telegram_api_wb",
           "kind": "readiness",
           "title": "readiness://app/telegram_api_wb",
@@ -817,9 +1205,57 @@
           "source": "teamon"
         },
         {
+          "ref": "readiness://app/telegram_smm_outgoing",
+          "kind": "readiness",
+          "title": "readiness://app/telegram_smm_outgoing",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
           "ref": "readiness://app/web-search",
           "kind": "readiness",
           "title": "readiness://app/web-search",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/google_sheets_finansy",
+          "kind": "readiness",
+          "title": "readiness://connector/google_sheets_finansy",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/google_sheets_ozon",
+          "kind": "readiness",
+          "title": "readiness://connector/google_sheets_ozon",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/google_sheets_smm",
+          "kind": "readiness",
+          "title": "readiness://connector/google_sheets_smm",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/google_sheets_wb",
+          "kind": "readiness",
+          "title": "readiness://connector/google_sheets_wb",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/google_sheets_zavod",
+          "kind": "readiness",
+          "title": "readiness://connector/google_sheets_zavod",
           "description": "Detailed readiness and last error state are available through readiness read tools.",
           "loader": "context_mcp",
           "source": "teamon"
@@ -844,6 +1280,14 @@
           "ref": "readiness://connector/telegram_bot_wb",
           "kind": "readiness",
           "title": "readiness://connector/telegram_bot_wb",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/telegram_smm_outgoing",
+          "kind": "readiness",
+          "title": "readiness://connector/telegram_smm_outgoing",
           "description": "Detailed readiness and last error state are available through readiness read tools.",
           "loader": "context_mcp",
           "source": "teamon"
@@ -930,8 +1374,9 @@
           "id": "owner_provisioning",
           "title": "Owner provisioning",
           "status": "ready",
-          "summary": "Owner can prepare agents, assign resources, capture target credentials, and verify readiness.",
+          "summary": "Owner can set company defaults, prepare agents, assign resources, capture target credentials, and verify readiness.",
           "readyEvidence": [
+            "owner.configure_company ready",
             "owner.prepare_personal_agent ready",
             "owner.assign_resource ready",
             "owner.capture_credential ready"
@@ -1015,7 +1460,8 @@
       "rawBrowserStateIncluded": false
     },
     "blockingNextActions": [
-      "assign_connector"
+      "assign_connector",
+      "connect_credential"
     ],
     "nativeTools": {
       "cards": [
@@ -1278,7 +1724,7 @@
           "namespace": "gateway",
           "name": "gateway.issue_bridge_code",
           "title": "Issue an app pairing code",
-          "whatItDoes": "Mints a one-time TeamON app/desktop pairing code (XXXXX-XXXXX, short TTL) for the current user and current agent; only the code hash is stored and the raw code is returned once.",
+          "whatItDoes": "Mints a one-time TeamON app/desktop pairing code (XXXXX-XXXXX, short TTL) for the current user and current agent; only the code hash is stored and the raw code is returned once, with the app instance URL when configured.",
           "whenToUse": "Use when the current user asks for a code to connect / pair the TeamON app, desktop, Edge, browser extension, or \"прога\" to this agent.",
           "adapter": "agent_mcp",
           "inputRefs": [
@@ -1286,6 +1732,7 @@
           ],
           "outputRefs": [
             "code only once",
+            "instance_url?",
             "agent_ref",
             "expires_at"
           ],
@@ -1633,12 +2080,13 @@
           "namespace": "gateway",
           "name": "gateway.send_artifact",
           "title": "Send artifact",
-          "whatItDoes": "Delivers a prepared artifact or an ordinary workspace file through a gateway and returns delivery evidence.",
-          "whenToUse": "Use when the user expects a report, file, screenshot, or export to be sent back.",
+          "whatItDoes": "Delivers a prepared artifact or an ordinary workspace file through a gateway and returns delivery evidence. For Telegram, optional target_chat_id may target an allowed group.",
+          "whenToUse": "Use when the user expects a report, file, screenshot, or export to be sent back to the current chat or an allowed Telegram group.",
           "adapter": "action_mcp",
           "inputRefs": [
             "gateway_ref",
-            "artifact_ref or workspace file_path"
+            "artifact_ref or workspace file_path",
+            "target_chat_id?"
           ],
           "outputRefs": [
             "delivery_ref"
@@ -1651,6 +2099,38 @@
             "artifact custody by ref"
           ],
           "ref": "tool:gateway.send_artifact",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "gateway",
+          "name": "gateway.send_message",
+          "title": "Send message",
+          "whatItDoes": "Sends plain text through the current Telegram gateway. With target_chat_id it sends only to a Telegram group allowed for this Agent; bot tokens stay hidden.",
+          "whenToUse": "Use when the user asks to write/send a plain text message to the current chat or an allowed Telegram group. Use gateway.send_artifact only for files, reports, screenshots, and media.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "gateway_ref",
+            "text",
+            "target_chat_id?"
+          ],
+          "outputRefs": [
+            "delivery_ref"
+          ],
+          "evidenceRequired": [
+            "gateway_message_sent"
+          ],
+          "securityBoundary": [
+            "gateway token hidden",
+            "allowed group allowlist",
+            "no arbitrary chat id"
+          ],
+          "ref": "tool:gateway.send_message",
           "tier": "T1",
           "visibleWhen": "any_actor",
           "status": "ready",
@@ -2082,7 +2562,7 @@
           "namespace": "owner",
           "name": "owner.issue_bridge_code",
           "title": "Issue a desktop pairing code",
-          "whatItDoes": "Mints a one-time desktop-bridge pairing code (XXXXX-XXXXX, short TTL) so the Owner can connect the TeamON desktop app to their Personal Agent; only the code hash is stored and the raw code is returned once.",
+          "whatItDoes": "Mints a one-time desktop-bridge pairing code (XXXXX-XXXXX, short TTL) so the Owner can connect the TeamON desktop app to their Personal Agent; only the code hash is stored and the raw code is returned once, with the app instance URL when configured.",
           "whenToUse": "Use when the Owner asks for a code to connect / pair the TeamON desktop app, Edge, browser extension, or \"прога\" («дай код для проги», «код для десктопа», \"connect the desktop app\").",
           "adapter": "owner_mcp",
           "visibleWhen": "owner_actor",
@@ -2091,6 +2571,7 @@
           ],
           "outputRefs": [
             "code only once",
+            "instance_url?",
             "agent_ref",
             "expires_at"
           ],
@@ -2113,9 +2594,43 @@
         },
         {
           "namespace": "owner",
+          "name": "owner.configure_company",
+          "title": "Configure company defaults",
+          "whatItDoes": "Sets or clears the company default language and timezone that each Agent receives in resident context when a user has no personal override.",
+          "whenToUse": "Use when the Owner asks to set the default language, locale, timezone, local time, or date/time behavior for the company.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "language? (ru/en/etc or null)",
+            "timezone? (IANA, e.g. Europe/Moscow, or null)"
+          ],
+          "outputRefs": [
+            "company_ref",
+            "language",
+            "timezone"
+          ],
+          "evidenceRequired": [
+            "company_configured"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "company defaults only",
+            "user-level language/timezone still override company defaults",
+            "no raw secrets"
+          ],
+          "ref": "tool:owner.configure_company",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
           "name": "owner.prepare_personal_agent",
           "title": "Prepare Personal Agent",
-          "whatItDoes": "Creates or updates a TeamON User and their Personal Agent with owner-set model, effort, purpose, interface passport, Telegram identity hint, starter context, and optional delegated-admin authority.",
+          "whatItDoes": "Creates or updates a TeamON User and their Personal Agent with owner-set model, effort, purpose, language/timezone override, interface passport, Telegram identity hint, starter context, and optional delegated-admin authority.",
           "whenToUse": "Use when the Owner naturally asks to prepare a Personal Agent for another person, including a Telegram user they are onboarding through the bot.",
           "adapter": "owner_mcp",
           "visibleWhen": "owner_actor",
@@ -2126,6 +2641,8 @@
             "purpose?",
             "model?",
             "effort?",
+            "language?",
+            "timezone?",
             "interface_kind?",
             "initial_context?",
             "delegated_admin?"
@@ -2627,6 +3144,39 @@
             "no raw journal or host paths"
           ],
           "ref": "tool:ops.provision_bot",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "ops",
+          "name": "ops.deprovision_bot",
+          "title": "Deprovision client bot service",
+          "whatItDoes": "Stops and disables a TeamON client bot systemd service and removes the service unit through the owner-system helper with evidence.",
+          "whenToUse": "Use when the Owner asks to remove a test/extra Telegram bot service from the host. It does not delete durable agent memory/state by default.",
+          "adapter": "typed_helper",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "service_name or slug",
+            "remove_env?"
+          ],
+          "outputRefs": [
+            "service_ref"
+          ],
+          "evidenceRequired": [
+            "ops_deprovision_bot_applied"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "TeamON service-name allowlist",
+            "bounded host-helper",
+            "no raw journal or host paths",
+            "state deletion is not implicit"
+          ],
+          "ref": "tool:ops.deprovision_bot",
           "tier": "T2",
           "status": "ready",
           "usableNow": true,

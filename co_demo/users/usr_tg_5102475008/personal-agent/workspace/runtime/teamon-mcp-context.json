@@ -1,0 +1,2770 @@
+{
+  "company": {
+    "id": "co_demo",
+    "name": "Demo Company",
+    "delegatedAdminUserIds": [
+      "usr_owner",
+      "usr_tg_6674981864"
+    ]
+  },
+  "actorUserId": "usr_tg_5102475008",
+  "actorRole": "owner",
+  "actorAuthority": "owner",
+  "agentId": "agt_tg_5102475008",
+  "agentKind": "personal",
+  "traceId": "tr_telegram_user_5102475008_696",
+  "requestId": "req_tr_telegram_user_5102475008_696",
+  "surface": {
+    "kind": "telegram",
+    "id": "telegram:chat:5102475008:user:5102475008",
+    "replyRoute": "telegram:company-main:5102475008"
+  },
+  "now": "2026-06-17T18:37:31.850Z",
+  "internalCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoidGVsZWdyYW0uc2VuZF9hcnRpZmFjdCIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z181MTAyNDc1MDA4IiwiYWdlbnRJZCI6ImFndF90Z181MTAyNDc1MDA4IiwidHJhY2VJZCI6InRyX3RlbGVncmFtX3VzZXJfNTEwMjQ3NTAwOF82OTYiLCJyZXF1ZXN0SWQiOiJyZXFfdHJfdGVsZWdyYW1fdXNlcl81MTAyNDc1MDA4XzY5NiIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6NTEwMjQ3NTAwODp1c2VyOjUxMDI0NzUwMDgiLCJleHBpcmVzQXQiOjE3ODE3NjQ2NTE4NDksInJhd1NlY3JldHNJbmNsdWRlZCI6ZmFsc2V9.Bfk5Ti6ZRcR3yxJL4hAV6_8owVOEoLMCvtESbhx-6nw",
+  "internalBrowserCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmJyb3dzZXJfYWN0aW9uIiwiY29tcGFueUlkIjoiY29fZGVtbyIsImFjdG9yVXNlcklkIjoidXNyX3RnXzUxMDI0NzUwMDgiLCJhZ2VudElkIjoiYWd0X3RnXzUxMDI0NzUwMDgiLCJ0cmFjZUlkIjoidHJfdGVsZWdyYW1fdXNlcl81MTAyNDc1MDA4XzY5NiIsInJlcXVlc3RJZCI6InJlcV90cl90ZWxlZ3JhbV91c2VyXzUxMDI0NzUwMDhfNjk2Iiwic3VyZmFjZUlkIjoidGVsZWdyYW06Y2hhdDo1MTAyNDc1MDA4OnVzZXI6NTEwMjQ3NTAwOCIsImV4cGlyZXNBdCI6MTc4MTc2NDY1MTg1MCwicmF3U2VjcmV0c0luY2x1ZGVkIjpmYWxzZX0.9w1pAEwCEym80hlhq6_LzsL8FHrhU49QMHr8lFHn9zs",
+  "internalComputerCapability": "tic1.eyJ2ZXJzaW9uIjoxLCJwdXJwb3NlIjoiYnJpZGdlLmNvbXB1dGVyX2FjdGlvbiIsImNvbXBhbnlJZCI6ImNvX2RlbW8iLCJhY3RvclVzZXJJZCI6InVzcl90Z181MTAyNDc1MDA4IiwiYWdlbnRJZCI6ImFndF90Z181MTAyNDc1MDA4IiwidHJhY2VJZCI6InRyX3RlbGVncmFtX3VzZXJfNTEwMjQ3NTAwOF82OTYiLCJyZXF1ZXN0SWQiOiJyZXFfdHJfdGVsZWdyYW1fdXNlcl81MTAyNDc1MDA4XzY5NiIsInN1cmZhY2VJZCI6InRlbGVncmFtOmNoYXQ6NTEwMjQ3NTAwODp1c2VyOjUxMDI0NzUwMDgiLCJleHBpcmVzQXQiOjE3ODE3NjQ2NTE4NTAsInJhd1NlY3JldHNJbmNsdWRlZCI6ZmFsc2V9.YCeTLIJIT_sjmXF5walX871I1fkzI75xCqBOxgMsJcM",
+  "readModel": {
+    "abilityCatalog": {
+      "companyId": "co_demo",
+      "agentId": "agt_tg_5102475008",
+      "userId": "usr_tg_5102475008",
+      "abilities": [
+        {
+          "ref": "app:telegram_api_wb",
+          "kind": "app",
+          "title": "Telegram API (WB bot)",
+          "source": "hub",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "app:telegram_bot",
+          "kind": "app",
+          "title": "Telegram Bot — WB",
+          "source": "hub",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "app:web-search",
+          "kind": "app",
+          "title": "Web Search",
+          "source": "hub",
+          "status": "not_assigned",
+          "usableNow": false,
+          "nextActions": [
+            "assign_connector"
+          ]
+        },
+        {
+          "ref": "browser:user:usr_tg_5102475008:public-web",
+          "kind": "browser",
+          "title": "public-web",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "connector:agent:agt_tg_5102475008:public-web-search",
+          "kind": "connector",
+          "title": "Public Web Search Provider",
+          "source": "capsule",
+          "status": "not_assigned",
+          "usableNow": false,
+          "nextActions": [
+            "assign_connector"
+          ]
+        },
+        {
+          "ref": "connector:company:co_demo:telegram_api_wb",
+          "kind": "connector",
+          "title": "Telegram API (WB bot)",
+          "source": "hub",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "connector:company:co_demo:telegram_bot_wb",
+          "kind": "connector",
+          "title": "Telegram Bot — WB",
+          "source": "hub",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "credential:company:co_demo:CLAUDE_OAUTH",
+          "kind": "credential",
+          "title": "CLAUDE_OAUTH (company)",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "credential:company:co_demo:TELEGRAM_BOT_TOKEN_WB",
+          "kind": "credential",
+          "title": "TELEGRAM_BOT_TOKEN_WB (company)",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "credential:user:usr_tg_5102475008:TELEGRAM_BOT_TOKEN",
+          "kind": "credential",
+          "title": "TELEGRAM_BOT_TOKEN (user)",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "gateway:telegram:company-main",
+          "kind": "gateway",
+          "title": "Telegram company-main",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:connector.write_local",
+          "kind": "mcp",
+          "title": "connector.write_local",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:diagnostics.collect_support_bundle",
+          "kind": "mcp",
+          "title": "diagnostics.collect_support_bundle",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:diagnostics.read_runtime_status",
+          "kind": "mcp",
+          "title": "diagnostics.read_runtime_status",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:gateway.issue_bridge_code",
+          "kind": "mcp",
+          "title": "gateway.issue_bridge_code",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:media.read_document",
+          "kind": "mcp",
+          "title": "media.read_document",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:memory.write",
+          "kind": "mcp",
+          "title": "memory.write",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:proactivity.propose",
+          "kind": "mcp",
+          "title": "proactivity.propose",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.cancel_job",
+          "kind": "mcp",
+          "title": "scheduler.cancel_job",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.create_job",
+          "kind": "mcp",
+          "title": "scheduler.create_job",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.create_reminder",
+          "kind": "mcp",
+          "title": "scheduler.create_reminder",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:scheduler.list_jobs",
+          "kind": "mcp",
+          "title": "scheduler.list_jobs",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:skill.read",
+          "kind": "mcp",
+          "title": "skill.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-agent-mcp:skill.write_local",
+          "kind": "mcp",
+          "title": "skill.write_local",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.complete_auth_handoff",
+          "kind": "mcp",
+          "title": "browser.complete_auth_handoff",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.readiness",
+          "kind": "mcp",
+          "title": "browser.readiness",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.run_action",
+          "kind": "mcp",
+          "title": "browser.run_action",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:browser.start_auth_handoff",
+          "kind": "mcp",
+          "title": "browser.start_auth_handoff",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-browser-app-tools:computer.run_action",
+          "kind": "mcp",
+          "title": "computer.run_action",
+          "source": "runtime",
+          "status": "blocked",
+          "usableNow": false,
+          "nextActions": [
+            "connect_adapter"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:activity.read",
+          "kind": "mcp",
+          "title": "activity.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:app.list",
+          "kind": "mcp",
+          "title": "app.list",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:context.ingest",
+          "kind": "mcp",
+          "title": "context.ingest",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:context.read",
+          "kind": "mcp",
+          "title": "context.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:context.search",
+          "kind": "mcp",
+          "title": "context.search",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:readiness.read",
+          "kind": "mcp",
+          "title": "readiness.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:tool.help",
+          "kind": "mcp",
+          "title": "tool.help",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:trace.read",
+          "kind": "mcp",
+          "title": "trace.read",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-context-mcp:trace.search",
+          "kind": "mcp",
+          "title": "trace.search",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-credential-mcp:credential.capture",
+          "kind": "mcp",
+          "title": "credential.capture",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-credential-mcp:credential.status",
+          "kind": "mcp",
+          "title": "credential.status",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-integration-mcp:integration.check_readiness",
+          "kind": "mcp",
+          "title": "integration.check_readiness",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-integration-mcp:integration.http_request",
+          "kind": "mcp",
+          "title": "integration.http_request",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp-tool:teamon-integration-mcp:integration.web_search",
+          "kind": "mcp",
+          "title": "integration.web_search",
+          "source": "runtime",
+          "status": "blocked",
+          "usableNow": false,
+          "nextActions": [
+            "connect_adapter"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-agent-mcp",
+          "kind": "mcp",
+          "title": "teamon-agent-mcp",
+          "source": "runtime",
+          "status": "unknown",
+          "usableNow": false,
+          "nextActions": [
+            "use_ready_tools"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-browser-app-tools",
+          "kind": "mcp",
+          "title": "teamon-browser-app-tools",
+          "source": "runtime",
+          "status": "unknown",
+          "usableNow": false,
+          "nextActions": [
+            "use_ready_tools"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-context-mcp",
+          "kind": "mcp",
+          "title": "teamon-context-mcp",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-credential-mcp",
+          "kind": "mcp",
+          "title": "teamon-credential-mcp",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "mcp:teamon-integration-mcp",
+          "kind": "mcp",
+          "title": "teamon-integration-mcp",
+          "source": "runtime",
+          "status": "unknown",
+          "usableNow": false,
+          "nextActions": [
+            "use_ready_tools"
+          ]
+        },
+        {
+          "ref": "stt:engine:groq-whisper",
+          "kind": "media",
+          "title": "Groq Whisper STT",
+          "source": "runtime",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        },
+        {
+          "ref": "surface-pack:telegram:telegram-agent-pack",
+          "kind": "surface_pack",
+          "title": "Telegram Agent Pack",
+          "source": "capsule",
+          "status": "ready",
+          "usableNow": true,
+          "nextActions": [
+            "use_capability"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "name": "telegram_api_wb",
+          "kind": "app",
+          "ref": "app:telegram_api_wb",
+          "title": "Telegram API (WB bot)",
+          "whatItDoes": "Work with Telegram API (WB bot) through its assigned connector.",
+          "whenToUse": "Use when a user asks for work backed by Telegram API (WB bot).",
+          "requiredRefs": [
+            "connector:company:co_demo:telegram_api_wb",
+            "credential:company:co_demo:TELEGRAM_BOT_TOKEN_WB"
+          ],
+          "readiness": {
+            "status": "ready",
+            "usableNow": true,
+            "nextActions": [
+              "use_capability"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "telegram_bot",
+          "kind": "app",
+          "ref": "app:telegram_bot",
+          "title": "Telegram Bot — WB",
+          "whatItDoes": "Work with Telegram Bot — WB through its assigned connector.",
+          "whenToUse": "Use when a user asks for work backed by Telegram Bot — WB.",
+          "requiredRefs": [
+            "connector:company:co_demo:telegram_bot_wb",
+            "credential:company:co_demo:TELEGRAM_BOT_TOKEN_WB"
+          ],
+          "readiness": {
+            "status": "ready",
+            "usableNow": true,
+            "nextActions": [
+              "use_capability"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "web-search",
+          "kind": "app",
+          "ref": "app:web-search",
+          "title": "Web Search",
+          "whatItDoes": "Finds current public web information through a configured search provider connector.",
+          "whenToUse": "Use when the user asks for current facts, news, prices, docs, or source-backed external information.",
+          "requiredRefs": [
+            "connector:agent:agt_tg_5102475008:public-web-search"
+          ],
+          "readiness": {
+            "status": "not_assigned",
+            "usableNow": false,
+            "nextActions": [
+              "assign_connector"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.web_search",
+          "evidenceRequired": [
+            "sources_returned",
+            "web_search_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "public-web-search",
+          "kind": "connector",
+          "ref": "connector:agent:agt_tg_5102475008:public-web-search",
+          "title": "Public Web Search Provider",
+          "whatItDoes": "Web Search technical provider binding.",
+          "whenToUse": "Use when Use when the user asks for current facts, news, prices, docs, or source-backed external information.",
+          "requiredRefs": [],
+          "readiness": {
+            "status": "not_assigned",
+            "usableNow": false,
+            "nextActions": [
+              "assign_connector"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.web_search",
+          "evidenceRequired": [
+            "sources_returned",
+            "web_search_completed"
+          ],
+          "source": "capsule"
+        },
+        {
+          "name": "telegram_api_wb",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:telegram_api_wb",
+          "title": "Telegram API (WB bot)",
+          "whatItDoes": "Telegram API (WB bot) technical api binding.",
+          "whenToUse": "Use when a task needs the Telegram API (WB bot) connection.",
+          "requiredRefs": [
+            "credential:company:co_demo:TELEGRAM_BOT_TOKEN_WB"
+          ],
+          "readiness": {
+            "status": "ready",
+            "usableNow": true,
+            "nextActions": [
+              "use_capability"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        },
+        {
+          "name": "telegram_bot_wb",
+          "kind": "connector",
+          "ref": "connector:company:co_demo:telegram_bot_wb",
+          "title": "Telegram Bot — WB",
+          "whatItDoes": "Telegram Bot — WB technical provider binding.",
+          "whenToUse": "Use when a task needs the Telegram Bot — WB connection.",
+          "requiredRefs": [
+            "credential:company:co_demo:TELEGRAM_BOT_TOKEN_WB"
+          ],
+          "readiness": {
+            "status": "ready",
+            "usableNow": true,
+            "nextActions": [
+              "use_capability"
+            ]
+          },
+          "loader": "ability_read",
+          "tool": "integration.http_request",
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "source": "hub"
+        }
+      ]
+    },
+    "lazyManifest": {
+      "items": [
+        {
+          "ref": "ability://app/telegram_api_wb",
+          "kind": "app",
+          "title": "Telegram API (WB bot)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://app/telegram_bot",
+          "kind": "app",
+          "title": "Telegram Bot — WB",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://app/web-search",
+          "kind": "app",
+          "title": "Web Search",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/public-web-search",
+          "kind": "connector",
+          "title": "Public Web Search Provider",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/telegram_api_wb",
+          "kind": "connector",
+          "title": "Telegram API (WB bot)",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "ability://connector/telegram_bot_wb",
+          "kind": "connector",
+          "title": "Telegram Bot — WB",
+          "description": "Capability card details, readiness, required refs, tool hint, and evidence requirement are available through ability read tools.",
+          "loader": "ability_read",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://app/telegram_api_wb",
+          "kind": "readiness",
+          "title": "readiness://app/telegram_api_wb",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://app/telegram_bot",
+          "kind": "readiness",
+          "title": "readiness://app/telegram_bot",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://app/web-search",
+          "kind": "readiness",
+          "title": "readiness://app/web-search",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/public-web-search",
+          "kind": "readiness",
+          "title": "readiness://connector/public-web-search",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/telegram_api_wb",
+          "kind": "readiness",
+          "title": "readiness://connector/telegram_api_wb",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "readiness://connector/telegram_bot_wb",
+          "kind": "readiness",
+          "title": "readiness://connector/telegram_bot_wb",
+          "description": "Detailed readiness and last error state are available through readiness read tools.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "rule://companies/co_demo/rules/telegram-bot-provisioning",
+          "kind": "memory",
+          "title": "rule://companies/co_demo/rules/telegram-bot-provisioning",
+          "description": "Memory detail is available through context read tools when needed.",
+          "loader": "context_mcp",
+          "source": "teamon"
+        },
+        {
+          "ref": "surface-pack://telegram/telegram-agent-pack/manifest",
+          "kind": "surface_pack",
+          "title": "Telegram Agent Pack",
+          "description": "Editable surface/media pack manifest is available through ability read tools; protected gateway kernel state is not included.",
+          "loader": "ability_read",
+          "source": "teamon"
+        }
+      ]
+    },
+    "capabilityDoctor": {
+      "schema": "teamon.clean.agent_capability_doctor.v1",
+      "generatedFrom": "agent_turn_packet",
+      "summary": "7/8 ready; setup: web_search",
+      "areas": [
+        {
+          "id": "web_search",
+          "title": "Web search",
+          "status": "needs_setup",
+          "summary": "No ready Brave/search credential is visible for this actor.",
+          "readyEvidence": [],
+          "repairActions": [
+            "If the owner provides a Brave Search key, store it with owner.capture_credential or credential.capture.",
+            "Verify readiness with readiness.read and then a real integration.web_search probe."
+          ],
+          "verifyActions": [
+            "Do not claim current web search is connected until web_search_completed evidence exists."
+          ],
+          "refs": [
+            "app:web-search",
+            "connector:agent:agt_tg_5102475008:public-web-search",
+            "mcp-tool:teamon-integration-mcp:integration.web_search"
+          ],
+          "rawSecretsIncluded": false
+        },
+        {
+          "id": "voice_stt",
+          "title": "Voice STT",
+          "status": "ready",
+          "summary": "Voice transcription ready: Groq Whisper STT.",
+          "readyEvidence": [
+            "STT provider ready",
+            "media.transcribe ready"
+          ],
+          "repairActions": [],
+          "verifyActions": [
+            "For a voice task, require media_transcript_ready before answering from audio content."
+          ],
+          "refs": [],
+          "rawSecretsIncluded": false
+        },
+        {
+          "id": "browser",
+          "title": "Browser",
+          "status": "ready",
+          "summary": "Usable browser session(s): public-web.",
+          "readyEvidence": [
+            "browser.readiness available",
+            "browser.run_action ready",
+            "usable saved session"
+          ],
+          "repairActions": [],
+          "verifyActions": [
+            "Call browser.readiness for the selected browser_session_ref before a sensitive cabinet task."
+          ],
+          "refs": [
+            "browser:user:usr_tg_5102475008:public-web"
+          ],
+          "rawSecretsIncluded": false
+        },
+        {
+          "id": "owner_provisioning",
+          "title": "Owner provisioning",
+          "status": "ready",
+          "summary": "Owner can prepare agents, assign resources, capture target credentials, and verify readiness.",
+          "readyEvidence": [
+            "owner.prepare_personal_agent ready",
+            "owner.assign_resource ready",
+            "owner.capture_credential ready"
+          ],
+          "repairActions": [],
+          "verifyActions": [
+            "After each mutation, run readiness.read or the target capability probe before saying ready."
+          ],
+          "refs": [],
+          "rawSecretsIncluded": false
+        },
+        {
+          "id": "business_connectors",
+          "title": "Business connectors",
+          "status": "ready",
+          "summary": "Ready business app/connector(s): Telegram API (WB bot), Telegram Bot — WB.",
+          "readyEvidence": [
+            "ready ability catalog cards"
+          ],
+          "repairActions": [],
+          "verifyActions": [
+            "Run integration.check_readiness or the real integration.http_request before claiming external data."
+          ],
+          "refs": [
+            "app:telegram_api_wb",
+            "app:telegram_bot",
+            "connector:company:co_demo:telegram_api_wb",
+            "connector:company:co_demo:telegram_bot_wb"
+          ],
+          "rawSecretsIncluded": false
+        },
+        {
+          "id": "documents_tables",
+          "title": "Documents and tables",
+          "status": "ready",
+          "summary": "Document reading is ready for current media/inbox artifacts; XLSX/XLSM have a built-in reader.",
+          "readyEvidence": [
+            "media.read_document ready",
+            "XLSX/XLSM built-in reader path"
+          ],
+          "repairActions": [],
+          "verifyActions": [
+            "For report work, prove source text/rows, workbook readability, totals, and gateway delivery when sending a file."
+          ],
+          "refs": [],
+          "rawSecretsIncluded": false
+        },
+        {
+          "id": "delivery",
+          "title": "Delivery",
+          "status": "ready",
+          "summary": "Delivery available through Telegram company-main.",
+          "readyEvidence": [
+            "gateway ready"
+          ],
+          "repairActions": [],
+          "verifyActions": [
+            "When promising a file, require gateway.send_artifact or delivery evidence for the target surface."
+          ],
+          "refs": [],
+          "rawSecretsIncluded": false
+        },
+        {
+          "id": "task_grip",
+          "title": "Task grip",
+          "status": "ready",
+          "summary": "owner_access_management: Manage agent/user access, resources, connectors, credentials, or skills through owner-scoped a...",
+          "readyEvidence": [
+            "target user/agent resolved",
+            "owner tool mutation evidence",
+            "post-change readiness/capability evidence",
+            "no raw secret disclosed"
+          ],
+          "repairActions": [],
+          "verifyActions": [
+            "Find or prepare the target user/agent before declaring access missing.",
+            "Use owner-scoped resource assignment for apps, connectors, skills, rules, workflows, and knowledge.",
+            "Capture credentials through the credential boundary; return refs/status only, never raw values."
+          ],
+          "refs": [],
+          "rawSecretsIncluded": false
+        }
+      ],
+      "rawSecretsIncluded": false,
+      "rawCredentialValuesIncluded": false,
+      "rawBrowserStateIncluded": false
+    },
+    "blockingNextActions": [
+      "assign_connector"
+    ],
+    "nativeTools": {
+      "cards": [
+        {
+          "namespace": "context",
+          "name": "context.search",
+          "title": "Search knowledge base",
+          "whatItDoes": "Ranks the most relevant memory, ingested documents, skills, and history for a query (BM25), without loading the whole company context. Pass a collection to search ONE named knowledge base.",
+          "whenToUse": "Use when the user refers to prior work, an ingested document, company rules, report formats, or earlier-provided material — search first instead of guessing or re-asking.",
+          "adapter": "context_mcp",
+          "inputRefs": [
+            "query",
+            "collection?",
+            "scope_ref"
+          ],
+          "outputRefs": [
+            "context_ref[]"
+          ],
+          "evidenceRequired": [
+            "context_search_result"
+          ],
+          "securityBoundary": [
+            "redacted read model",
+            "scope checked"
+          ],
+          "ref": "tool:context.search",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "context",
+          "name": "context.ingest",
+          "title": "Add document to knowledge base",
+          "whatItDoes": "Indexes a document into the Agent knowledge base so it is searchable later by relevance (BM25). Pass artifact_ref OR text_content (text you read natively, incl. PDF/DOCX). Optional collection groups it into a named knowledge base.",
+          "whenToUse": "Use whenever the user gives a durable document worth keeping — docs, policies, examples, datasets, report templates — so context.search can find it across turns. Do not just read it for this turn.",
+          "adapter": "context_mcp",
+          "inputRefs": [
+            "artifact_ref?",
+            "text_content?",
+            "context_scope",
+            "collection?",
+            "title?",
+            "tags?"
+          ],
+          "outputRefs": [
+            "context_ref"
+          ],
+          "evidenceRequired": [
+            "context_artifact_ingested"
+          ],
+          "securityBoundary": [
+            "refs or agent-read text only",
+            "scope checked",
+            "raw document text is not pasted into every prompt"
+          ],
+          "ref": "tool:context.ingest",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "memory",
+          "name": "memory.write",
+          "title": "Write durable memory",
+          "whatItDoes": "Stores stable user, agent, or company facts — and your own working notes — through sanctioned memory projection. Resident notes appear in your context each turn with their date.",
+          "whenToUse": "Use after the user gives a durable preference, recurring fact, report format, or operating rule. Also use as your own NOTES BUFFER: jot a working note to yourself to remember across turns (scope \"agent\", kind \"notes\") — it rides your context with a dttm, like a timestamped scratchpad.",
+          "adapter": "agent_mcp",
+          "inputRefs": [
+            "memory_scope",
+            "summary",
+            "detail_ref?"
+          ],
+          "outputRefs": [
+            "memory_ref"
+          ],
+          "evidenceRequired": [
+            "memory_written"
+          ],
+          "securityBoundary": [
+            "no pasted secrets",
+            "scope checked",
+            "resident summary only unless lazy detail is requested"
+          ],
+          "ref": "tool:memory.write",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "skill",
+          "name": "skill.write_local",
+          "title": "Write local skill",
+          "whatItDoes": "Creates or updates an agent-local procedural SKILL package in the capsule.",
+          "whenToUse": "Use when the user describes a repeatable workflow or asks the agent to remember how to do a procedure.",
+          "adapter": "agent_mcp",
+          "inputRefs": [
+            "skill_name",
+            "procedure_steps",
+            "required_capability_refs"
+          ],
+          "outputRefs": [
+            "skill_ref"
+          ],
+          "evidenceRequired": [
+            "procedure_package_validated",
+            "local_procedure_written"
+          ],
+          "securityBoundary": [
+            "capsule writable skills only",
+            "no raw secrets in skill body"
+          ],
+          "ref": "tool:skill.write_local",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "skill",
+          "name": "skill.read",
+          "title": "Read skill body",
+          "whatItDoes": "Loads full procedural skill content lazily only when the workflow needs it.",
+          "whenToUse": "Use before executing a known repeatable workflow such as reporting, connector setup, delivery, or browser auth handoff.",
+          "adapter": "agent_mcp",
+          "inputRefs": [
+            "skill_ref"
+          ],
+          "outputRefs": [
+            "skill_body"
+          ],
+          "evidenceRequired": [
+            "procedure_loaded"
+          ],
+          "securityBoundary": [
+            "lazy load only",
+            "model-safe skill validation"
+          ],
+          "ref": "tool:skill.read",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "app",
+          "name": "app.list",
+          "title": "List Apps and capability cards",
+          "whatItDoes": "Shows product Apps and their connector/readiness cards as model-safe capability metadata.",
+          "whenToUse": "Use when the user asks what the agent can work with or whether an integration exists.",
+          "adapter": "context_mcp",
+          "inputRefs": [
+            "agent_ref"
+          ],
+          "outputRefs": [
+            "app_ref[]",
+            "connector_ref[]"
+          ],
+          "evidenceRequired": [
+            "ability_catalog_read"
+          ],
+          "securityBoundary": [
+            "refs and readiness only",
+            "no raw provider auth"
+          ],
+          "ref": "tool:app.list",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "connector",
+          "name": "connector.write_local",
+          "title": "Write agent-local connector",
+          "whatItDoes": "Creates or repairs an agent-local connector manifest with refs, allowed origins, and tool namespace.",
+          "whenToUse": "Use when the owner or agent configures a connector for this agent without making it company-shared.",
+          "adapter": "agent_mcp",
+          "inputRefs": [
+            "app_ref",
+            "connector_manifest",
+            "credential_ref?",
+            "browser_session_ref?"
+          ],
+          "outputRefs": [
+            "connector_ref"
+          ],
+          "evidenceRequired": [
+            "agent_local_connector_manifest_written"
+          ],
+          "securityBoundary": [
+            "manifest only",
+            "no raw credential values",
+            "no raw browser state"
+          ],
+          "ref": "tool:connector.write_local",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "gateway",
+          "name": "gateway.publish_site",
+          "title": "Publish a static site (self-host)",
+          "whatItDoes": "Publishes a static site you built in your capsule workspace as a live HTTPS page on the host (own nginx, DNS URL, no IP). Static files only; returns the live URL.",
+          "whenToUse": "Use when the owner asks to put up a site/landing/page as a live link. Build the files in /workspace first, then publish the folder. For server-side/dynamic apps this is not the rail.",
+          "adapter": "agent_mcp",
+          "inputRefs": [
+            "source (workspace subdir)",
+            "slug (site name)"
+          ],
+          "outputRefs": [
+            "site_url"
+          ],
+          "evidenceRequired": [
+            "site_published"
+          ],
+          "securityBoundary": [
+            "static files only (no server-side code)",
+            "per-agent isolated docroot",
+            "host paths hidden",
+            "DNS URL not IP"
+          ],
+          "ref": "tool:gateway.publish_site",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "contract_only",
+          "usableNow": false,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true,
+          "unavailableReason": "not_proven_yet_self_serve"
+        },
+        {
+          "namespace": "gateway",
+          "name": "gateway.issue_bridge_code",
+          "title": "Issue an app pairing code",
+          "whatItDoes": "Mints a one-time TeamON app/desktop pairing code (XXXXX-XXXXX, short TTL) for the current user and current agent; only the code hash is stored and the raw code is returned once.",
+          "whenToUse": "Use when the current user asks for a code to connect / pair the TeamON app, desktop, Edge, browser extension, or \"прога\" to this agent.",
+          "adapter": "agent_mcp",
+          "inputRefs": [
+            "label?"
+          ],
+          "outputRefs": [
+            "code only once",
+            "agent_ref",
+            "expires_at"
+          ],
+          "evidenceRequired": [
+            "bridge_pair_code_issued"
+          ],
+          "securityBoundary": [
+            "current actor only",
+            "current agent only",
+            "Telegram identity required",
+            "pairing code hash stored",
+            "raw code returned only at issue time"
+          ],
+          "ref": "tool:gateway.issue_bridge_code",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "credential",
+          "name": "credential.status",
+          "title": "Check credential readiness",
+          "whatItDoes": "Checks whether a credential ref exists, is scoped correctly, and is usable by tools.",
+          "whenToUse": "Use before asking the user for credentials or when an integration appears to have forgotten a token.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "credential_ref"
+          ],
+          "outputRefs": [
+            "credential_status"
+          ],
+          "evidenceRequired": [
+            "credential_status_checked"
+          ],
+          "securityBoundary": [
+            "credential sidecar",
+            "raw value never leaves credential boundary"
+          ],
+          "ref": "tool:credential.status",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "credential",
+          "name": "credential.capture",
+          "title": "Capture a secret the user provided",
+          "whatItDoes": "Stores a raw secret the user already pasted (API key/token/JWT) behind the credential boundary and returns a credential_ref; the raw value is then redacted from future turns and used only by ref.",
+          "whenToUse": "ONLY as a fallback when the user ALREADY pasted a real secret in chat that was not auto-captured (no credential_ref appeared) — e.g. a bare JWT. Pass the exact value the user gave. Never invent/guess/reconstruct a value; never for a secret the user did not provide. If a credential_ref already exists, use credential.status. Owner turns should prefer owner.capture_credential for credentials intended for another user, agent, or company.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "value (user-provided secret)",
+            "kind?",
+            "label?",
+            "scope? owner-only",
+            "target_user_ref? owner-only",
+            "target_agent_ref? owner-only"
+          ],
+          "outputRefs": [
+            "credential_ref"
+          ],
+          "evidenceRequired": [
+            "credential_captured"
+          ],
+          "securityBoundary": [
+            "value stored server-side behind credential boundary",
+            "raw value never echoed or returned",
+            "fallback only for a secret the user already pasted",
+            "cross-user or company scope requires owner actor"
+          ],
+          "ref": "tool:credential.capture",
+          "tier": "T2",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "integration",
+          "name": "integration.http_request",
+          "title": "Call a business API through a connector",
+          "whatItDoes": "Performs an HTTP request through a ready connector/credential and returns a redacted result with evidence; raw credential values stay server-side. With response_mode=\"artifact\" the response body (image/file/binary) is saved as an artifact_ref instead of being returned inline, so it can be delivered with gateway.send_artifact.",
+          "whenToUse": "Use for saved business APIs (CRM, marketplaces, Google AI/Gemini) once a connector or credential ref is ready; prefer response_mode=\"json\" for structured data, and response_mode=\"artifact\" when the API returns an image or file to deliver (for example Gemini image generation). For Basic Auth, store/pass the password as credential_ref and pass the username in basic_username; do not paste username:password into chat.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "connector_ref?",
+            "credential_ref?",
+            "credential_header?",
+            "basic_username?"
+          ],
+          "outputRefs": [
+            "integration_result",
+            "artifact_ref?"
+          ],
+          "evidenceRequired": [
+            "integration_http_request_completed"
+          ],
+          "securityBoundary": [
+            "credential resolved server-side",
+            "allowed-origin guard",
+            "no raw credential or full provider body"
+          ],
+          "ref": "tool:integration.http_request",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "integration",
+          "name": "integration.web_search",
+          "title": "Provider-backed web search",
+          "whatItDoes": "Runs an evidence-bound web search through a saved search connector and returns bounded current-source cards.",
+          "whenToUse": "Use for current public information when a search connector is ready; refer to it simply as \"web search\".",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "credential_ref?"
+          ],
+          "outputRefs": [
+            "web_search_results"
+          ],
+          "evidenceRequired": [
+            "web_search_completed"
+          ],
+          "securityBoundary": [
+            "search credential server-side",
+            "bounded current-source cards only"
+          ],
+          "ref": "tool:integration.web_search",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "contract_only",
+          "usableNow": false,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true,
+          "unavailableReason": "not_proven_yet_self_serve"
+        },
+        {
+          "namespace": "integration",
+          "name": "integration.check_readiness",
+          "title": "Check integration readiness",
+          "whatItDoes": "Reports which required refs are ready or missing for an integration and the repair rail to fix them.",
+          "whenToUse": "Use before an integration action to confirm connector/credential refs are usable, or to explain what is missing.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "required_refs[]"
+          ],
+          "outputRefs": [
+            "readiness_status"
+          ],
+          "evidenceRequired": [
+            "integration_readiness_checked"
+          ],
+          "securityBoundary": [
+            "refs and readiness only",
+            "no raw secrets"
+          ],
+          "ref": "tool:integration.check_readiness",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "browser",
+          "name": "browser.readiness",
+          "title": "Check browser session readiness",
+          "whatItDoes": "Checks saved browser session state and handoff status for a browser connector.",
+          "whenToUse": "Use before browser work, CAPTCHA/login handoff, or when a site session seems expired.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "browser_session_ref"
+          ],
+          "outputRefs": [
+            "browser_readiness"
+          ],
+          "evidenceRequired": [
+            "browser_readiness_checked"
+          ],
+          "securityBoundary": [
+            "browser sidecar",
+            "cookies and storage never leave browser boundary"
+          ],
+          "ref": "tool:browser.readiness",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "browser",
+          "name": "browser.start_auth_handoff",
+          "title": "Start browser login handoff",
+          "whatItDoes": "Starts a temporary operator browser handoff when saved session state is missing, expired, or blocked by CAPTCHA/login.",
+          "whenToUse": "Use when browser.readiness says a browser session needs login/check handoff. Do not ask users to paste cookies or storage state.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "browser_session_ref",
+            "handoff_ref?"
+          ],
+          "outputRefs": [
+            "handoff_ref",
+            "browser_handoff_status"
+          ],
+          "evidenceRequired": [
+            "browser_auth_handoff_started"
+          ],
+          "securityBoundary": [
+            "temporary browser boundary",
+            "no raw noVNC URL in model context",
+            "no cookies or VNC password returned"
+          ],
+          "ref": "tool:browser.start_auth_handoff",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "browser",
+          "name": "browser.complete_auth_handoff",
+          "title": "Complete browser login handoff",
+          "whatItDoes": "Finalizes an operator browser handoff and saves the browser session behind the browser boundary for future browser actions.",
+          "whenToUse": "Use after the user says the login/check in the temporary browser is done.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "browser_session_ref",
+            "handoff_ref?"
+          ],
+          "outputRefs": [
+            "browser_readiness"
+          ],
+          "evidenceRequired": [
+            "browser_auth_completed"
+          ],
+          "securityBoundary": [
+            "browser state saved behind boundary",
+            "raw cookies and storage hidden",
+            "temporary handoff cannot be reused as session proof"
+          ],
+          "ref": "tool:browser.complete_auth_handoff",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "browser",
+          "name": "browser.run_action",
+          "title": "Run browser action",
+          "whatItDoes": "Drives a real logged-in browser SESSION: navigate, observe (snapshot), click/type by element. It also reads the page real backend: capture_network returns fetch_templates — the page actual API endpoints (the \"handles\") — which you call with the fetch action as a SAME-SITE authenticated request, then verify and download. Not coordinate-clicking.",
+          "whenToUse": "After browser.readiness is ready. If you logged into a site via an operator handoff, use THAT site's browser_session_ref (the login-<host> session, e.g. login-www.notion.so) for actions on that site — it carries the saved login; the generic public-web ref is NOT logged in. To READ data, PREFER the network path: capture_network -> pick a fetch_template (a real API handle) -> fetch (same-site, uses the logged-in session) -> verify -> download, instead of clicking through fragile UI. Use snapshot + element click/type to operate UI you must; visual_click (coordinates) is the last resort.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "browser_session_ref",
+            "action",
+            "url/ref/selector/text/body as needed"
+          ],
+          "outputRefs": [
+            "snapshot_ref?",
+            "artifact_ref?",
+            "network_events?",
+            "fetch_templates?"
+          ],
+          "evidenceRequired": [
+            "browser_action_completed"
+          ],
+          "securityBoundary": [
+            "browser worker boundary",
+            "public-web and origin guards",
+            "credential fill by credential_ref only"
+          ],
+          "ref": "tool:browser.run_action",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "computer",
+          "name": "computer.run_action",
+          "title": "Control the user's computer (mouse/keyboard/screen)",
+          "whatItDoes": "Drives the USER's OWN computer through their paired desktop app: take a screenshot to SEE the screen, then click/double_click/right_click/move by pixel coordinate, type text, press a key chord (e.g. cmd+c), scroll, or wait. The EXACT analog of browser.run_action for the whole machine — it operates native desktop apps, not just the browser.",
+          "whenToUse": "Use ONLY when the user is driving from their desktop app (a desktop-bridge turn) or explicitly asks to control their computer, and the task needs a NATIVE app the browser cannot reach. For web work PREFER browser.run_action (its session/login/network path is safer than coordinate-clicking). Always screenshot first to see the screen before acting by coordinate.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "action",
+            "x/y/dy/text/keys/ms as needed"
+          ],
+          "outputRefs": [
+            "screenshot_image?",
+            "action_ok"
+          ],
+          "evidenceRequired": [
+            "computer_action_completed"
+          ],
+          "securityBoundary": [
+            "owner scope only",
+            "desktop bridge to a paired device node only (no server backend)",
+            "per-turn purpose-pinned bridge.computer_action capability",
+            "desktop-bridge surface or explicit target:user_computer",
+            "whole-machine control: prefer browser.run_action for web; reserve for native apps",
+            "raw screen state never enters model context; no host shell"
+          ],
+          "ref": "tool:computer.run_action",
+          "tier": "T2",
+          "visibleWhen": "any_actor",
+          "status": "contract_only",
+          "usableNow": false,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true,
+          "unavailableReason": "not_proven_yet_self_serve"
+        },
+        {
+          "namespace": "gateway",
+          "name": "gateway.send_artifact",
+          "title": "Send artifact",
+          "whatItDoes": "Delivers a prepared artifact or an ordinary workspace file through a gateway and returns delivery evidence.",
+          "whenToUse": "Use when the user expects a report, file, screenshot, or export to be sent back.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "gateway_ref",
+            "artifact_ref or workspace file_path"
+          ],
+          "outputRefs": [
+            "delivery_ref"
+          ],
+          "evidenceRequired": [
+            "gateway_delivery_sent"
+          ],
+          "securityBoundary": [
+            "gateway token hidden",
+            "artifact custody by ref"
+          ],
+          "ref": "tool:gateway.send_artifact",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "media",
+          "name": "media.transcribe",
+          "title": "Transcribe audio artifact",
+          "whatItDoes": "Turns a voice/audio/video artifact ref into bounded transcript text through a ready STT provider.",
+          "whenToUse": "Use when the user sends a voice message or audio/video and the task needs the spoken content.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "artifact_ref",
+            "media_provider_ref?"
+          ],
+          "outputRefs": [
+            "transcript_ref",
+            "text"
+          ],
+          "evidenceRequired": [
+            "media_transcript_ready"
+          ],
+          "securityBoundary": [
+            "artifact refs only",
+            "provider credentials stay behind media boundary",
+            "raw file paths hidden"
+          ],
+          "ref": "tool:media.transcribe",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "media",
+          "name": "media.synthesize",
+          "title": "Synthesize voice reply (TTS)",
+          "whatItDoes": "Turns text into a voice clip and returns an audio artifact_ref (then deliver it with gateway.send_artifact to send a Telegram voice message).",
+          "whenToUse": "Use to reply by voice — when the user sent a voice message (mirror the modality), asked to \"ответь голосом\"/\"send voice\", or prefers voice. Skip for code/tables or text over ~1000 chars. Do not also repeat the same text in your final message.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "text",
+            "voice?"
+          ],
+          "outputRefs": [
+            "artifact_ref"
+          ],
+          "evidenceRequired": [
+            "media_voice_ready"
+          ],
+          "securityBoundary": [
+            "text only in, audio artifact ref out",
+            "TTS sidecar stays behind the media boundary",
+            "raw file paths hidden"
+          ],
+          "ref": "tool:media.synthesize",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "blocked",
+          "usableNow": false,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true,
+          "unavailableReason": "not_proven_in_this_chat_yet"
+        },
+        {
+          "namespace": "media",
+          "name": "media.read_document",
+          "title": "Read document artifact",
+          "whatItDoes": "Extracts bounded text from a document artifact ref using built-in text readers or a document-reader provider.",
+          "whenToUse": "Use when the user sends txt, csv, json, markdown, pdf, docx, xlsx, or another document and asks to inspect or use it.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "artifact_ref",
+            "media_provider_ref?"
+          ],
+          "outputRefs": [
+            "document_text_ref",
+            "text"
+          ],
+          "evidenceRequired": [
+            "media_document_text_ready"
+          ],
+          "securityBoundary": [
+            "artifact custody by ref",
+            "raw host paths hidden",
+            "binary docs require provider evidence"
+          ],
+          "ref": "tool:media.read_document",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "media",
+          "name": "media.inspect_image",
+          "title": "Inspect stored image artifact",
+          "whatItDoes": "Describes or classifies a stored photo/screenshot artifact ref through a vision provider. This is separate from current Telegram photos that arrive as SDK image input.",
+          "whenToUse": "Use for stored/offline photo or screenshot artifacts, or workflows that need visual verification after the current turn. If the current Telegram photo is attached as SDK image input, inspect it directly instead of treating this provider card as required.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "artifact_ref",
+            "media_provider_ref?"
+          ],
+          "outputRefs": [
+            "vision_result_ref",
+            "text"
+          ],
+          "evidenceRequired": [
+            "media_vision_ready"
+          ],
+          "securityBoundary": [
+            "artifact refs only",
+            "vision provider credentials by ref",
+            "no raw Telegram file ids"
+          ],
+          "ref": "tool:media.inspect_image",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "blocked",
+          "usableNow": false,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true,
+          "unavailableReason": "not_proven_in_this_chat_yet"
+        },
+        {
+          "namespace": "media",
+          "name": "media.ocr",
+          "title": "OCR media artifact",
+          "whatItDoes": "Extracts text from image/document artifact refs through an OCR provider.",
+          "whenToUse": "Use when the task needs text printed inside a screenshot, scan, photo, or PDF page.",
+          "adapter": "action_mcp",
+          "inputRefs": [
+            "artifact_ref",
+            "media_provider_ref?"
+          ],
+          "outputRefs": [
+            "ocr_text_ref",
+            "text"
+          ],
+          "evidenceRequired": [
+            "media_ocr_ready"
+          ],
+          "securityBoundary": [
+            "artifact refs only",
+            "provider credentials hidden",
+            "bounded text output"
+          ],
+          "ref": "tool:media.ocr",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "blocked",
+          "usableNow": false,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true,
+          "unavailableReason": "not_proven_in_this_chat_yet"
+        },
+        {
+          "namespace": "scheduler",
+          "name": "scheduler.create_reminder",
+          "title": "Create reminder or scheduled job",
+          "whatItDoes": "Creates one-time or repeating durable reminder state with owner, actor, route, and delivery evidence requirements.",
+          "whenToUse": "Use when the user asks to remind, repeat, schedule, snooze, or run a recurring report.",
+          "adapter": "typed_helper",
+          "inputRefs": [
+            "actor_ref",
+            "agent_ref",
+            "reply_route",
+            "due_at",
+            "text",
+            "repeat?"
+          ],
+          "outputRefs": [
+            "job_ref"
+          ],
+          "evidenceRequired": [
+            "scheduled_job_created"
+          ],
+          "securityBoundary": [
+            "typed scheduler only",
+            "no cron or systemd editing by model"
+          ],
+          "ref": "tool:scheduler.create_reminder",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "scheduler",
+          "name": "scheduler.create_job",
+          "title": "Schedule a recurring job (runs as a tool, no inference)",
+          "whatItDoes": "Schedules durable work that the deterministic scheduler runs WITHOUT an LLM turn: a tool target (e.g. integration.http_request to fetch data) on a due/repeat schedule, with credentials injected by ref. An output policy controls notification: store_only, notify_on_change, or always_deliver.",
+          "whenToUse": "Use for repeating data collection / processing where each run is the same deterministic operation — so it does not spend model tokens. Use create_reminder for a plain reminder, and a prompt job only when a run genuinely needs reasoning.",
+          "adapter": "typed_helper",
+          "inputRefs": [
+            "due_at",
+            "text",
+            "target (tool: namespace/tool/input + credential_refs)",
+            "repeat?",
+            "output_policy?"
+          ],
+          "outputRefs": [
+            "job_ref"
+          ],
+          "evidenceRequired": [
+            "scheduled_job_created"
+          ],
+          "securityBoundary": [
+            "typed scheduler only",
+            "deterministic tool allowlist (no self-scheduling, no privileged side effects)",
+            "credentials by ref only — never a raw secret in the job"
+          ],
+          "ref": "tool:scheduler.create_job",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "scheduler",
+          "name": "scheduler.list_jobs",
+          "title": "List my scheduled jobs and reminders",
+          "whatItDoes": "Lists the caller's own active scheduled jobs and reminders (id/ref, target kind, output policy, due/repeat, status). Read-only.",
+          "whenToUse": "Use when the user asks what is scheduled / \"what jobs do I have\" / before cancelling one.",
+          "adapter": "typed_helper",
+          "inputRefs": [
+            "include_terminal?"
+          ],
+          "outputRefs": [
+            "job_ref"
+          ],
+          "evidenceRequired": [
+            "scheduler_jobs_listed"
+          ],
+          "securityBoundary": [
+            "own jobs only",
+            "no raw target input or credential refs in the listing"
+          ],
+          "ref": "tool:scheduler.list_jobs",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "scheduler",
+          "name": "scheduler.cancel_job",
+          "title": "Cancel a scheduled job",
+          "whatItDoes": "Cancels one of the caller's scheduled jobs/reminders by ref (stops future runs, including recurrence).",
+          "whenToUse": "Use when the user asks to stop, cancel, or remove a scheduled job or reminder.",
+          "adapter": "typed_helper",
+          "inputRefs": [
+            "job_ref"
+          ],
+          "outputRefs": [
+            "job_ref"
+          ],
+          "evidenceRequired": [
+            "scheduled_job_cancelled"
+          ],
+          "securityBoundary": [
+            "own jobs only",
+            "refuses another actor's job without revealing it"
+          ],
+          "ref": "tool:scheduler.cancel_job",
+          "tier": "T1",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "diagnostics",
+          "name": "diagnostics.read_runtime_status",
+          "title": "Read runtime diagnostics",
+          "whatItDoes": "Reads traces, recent errors, readiness summaries, and support-bundle refs through diagnostics tools.",
+          "whenToUse": "Use when the user asks why something failed, whether an agent is alive, or what happened in a trace.",
+          "adapter": "typed_helper",
+          "inputRefs": [
+            "agent_ref?",
+            "trace_ref?",
+            "since?"
+          ],
+          "outputRefs": [
+            "diagnostic_summary_ref"
+          ],
+          "evidenceRequired": [
+            "diagnostics_read"
+          ],
+          "securityBoundary": [
+            "redacted diagnostics",
+            "no raw journal or host paths"
+          ],
+          "ref": "tool:diagnostics.read_runtime_status",
+          "tier": "T0",
+          "visibleWhen": "any_actor",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.manage_invite_code",
+          "title": "Manage invite codes",
+          "whatItDoes": "Issues, lists, and revokes Telegram onboarding invite codes through owner authority; codes are stored hashed and returned only when issued.",
+          "whenToUse": "Use when the Owner wants to let a new person start through /start + invite code, rotate access, or revoke an onboarding code.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "mode issue|list|revoke",
+            "label?",
+            "code?",
+            "expires_at?",
+            "max_uses?",
+            "invite_ref?"
+          ],
+          "outputRefs": [
+            "invite_ref",
+            "invite_code only on issue"
+          ],
+          "evidenceRequired": [
+            "invite_code_issued",
+            "invite_codes_listed",
+            "invite_code_revoked"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "invite code hash stored",
+            "raw code returned only at issue time"
+          ],
+          "ref": "tool:owner.manage_invite_code",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.approve_user",
+          "title": "Approve user access",
+          "whatItDoes": "Marks a pending TeamON User active through owner authority; Telegram username-only users still wait for the first message before routing is proven.",
+          "whenToUse": "Use when the Owner approves a pending person who should be allowed into the TeamON company surface.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "user_ref"
+          ],
+          "outputRefs": [
+            "user_ref",
+            "routing_status"
+          ],
+          "evidenceRequired": [
+            "user_approved",
+            "user_already_active"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "company boundary checked",
+            "no raw Telegram numeric id returned"
+          ],
+          "ref": "tool:owner.approve_user",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.deny_user",
+          "title": "Deny user access",
+          "whatItDoes": "Archives a pending non-owner TeamON User through owner authority so they no longer appear as routable or pending access.",
+          "whenToUse": "Use when the Owner rejects a pending person or removes a prepared access request before the user is active.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "user_ref"
+          ],
+          "outputRefs": [
+            "user_ref"
+          ],
+          "evidenceRequired": [
+            "user_denied"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "company boundary checked",
+            "owner users cannot be denied here"
+          ],
+          "ref": "tool:owner.deny_user",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.issue_bridge_code",
+          "title": "Issue a desktop pairing code",
+          "whatItDoes": "Mints a one-time desktop-bridge pairing code (XXXXX-XXXXX, short TTL) so the Owner can connect the TeamON desktop app to their Personal Agent; only the code hash is stored and the raw code is returned once.",
+          "whenToUse": "Use when the Owner asks for a code to connect / pair the TeamON desktop app, Edge, browser extension, or \"прога\" («дай код для проги», «код для десктопа», \"connect the desktop app\").",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "label?"
+          ],
+          "outputRefs": [
+            "code only once",
+            "agent_ref",
+            "expires_at"
+          ],
+          "evidenceRequired": [
+            "bridge_pair_code_issued"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "bound to the owner personal agent + owner Telegram actor (server-resolved, not from input)",
+            "pairing code hash stored",
+            "raw code returned only at issue time"
+          ],
+          "ref": "tool:owner.issue_bridge_code",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.prepare_personal_agent",
+          "title": "Prepare Personal Agent",
+          "whatItDoes": "Creates or updates a TeamON User and their Personal Agent with owner-set model, effort, purpose, interface passport, Telegram identity hint, starter context, and optional delegated-admin authority.",
+          "whenToUse": "Use when the Owner naturally asks to prepare a Personal Agent for another person, including a Telegram user they are onboarding through the bot.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "display_name",
+            "telegram_username?",
+            "telegram_user_id?",
+            "purpose?",
+            "model?",
+            "effort?",
+            "interface_kind?",
+            "initial_context?",
+            "delegated_admin?"
+          ],
+          "outputRefs": [
+            "user_ref",
+            "agent_ref"
+          ],
+          "evidenceRequired": [
+            "personal_agent_created",
+            "personal_agent_prepared"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "no raw credential value",
+            "Telegram username is identity hint; numeric id or first message proves route"
+          ],
+          "ref": "tool:owner.prepare_personal_agent",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.create_process_agent",
+          "title": "Create Process Agent",
+          "whatItDoes": "Creates a reusable Process Agent in company state with purpose, model, effort, interface passport, and evidence.",
+          "whenToUse": "Use when the Owner naturally asks for a new agent, bot worker, process owner, health agent, or reporting agent.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "owner_ref",
+            "company_ref",
+            "agent_slug",
+            "display_name",
+            "purpose",
+            "model?",
+            "effort?",
+            "interface_kind?",
+            "allowed_group_chat_ids?",
+            "group_behavior_mode?"
+          ],
+          "outputRefs": [
+            "agent_ref"
+          ],
+          "evidenceRequired": [
+            "process_agent_created"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "not host root"
+          ],
+          "ref": "tool:owner.create_process_agent",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.configure_agent",
+          "title": "Configure Agent",
+          "whatItDoes": "Updates an Agent display name, purpose, model, effort, interface passport, approved Telegram group ids, or Telegram group behavior mode through owner authority.",
+          "whenToUse": "Use when the Owner asks to rename, retarget, tune effort, change model, choose the operator-facing interface, or let a direct Telegram work bot answer specific groups in active, mention, or silent mode.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "owner_ref",
+            "agent_ref",
+            "agent_patch",
+            "interface_kind?",
+            "allowed_group_chat_ids?",
+            "group_behavior_mode?"
+          ],
+          "outputRefs": [
+            "agent_ref"
+          ],
+          "evidenceRequired": [
+            "agent_configured"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "no raw runtime mutation"
+          ],
+          "ref": "tool:owner.configure_agent",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.assign_resource",
+          "title": "Assign Hub resource",
+          "whatItDoes": "Assigns skills, Apps, workflows, connectors, knowledge, or templates to a User, Agent, department/group, or process-agent scope.",
+          "whenToUse": "Use when the Owner wants another agent, user, department, or team to receive a capability or shared connector.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "owner_ref",
+            "resource_ref",
+            "target_ref"
+          ],
+          "outputRefs": [
+            "assignment_ref"
+          ],
+          "evidenceRequired": [
+            "hub_resource_assigned"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "explicit assignment only"
+          ],
+          "ref": "tool:owner.assign_resource",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.revoke_resource",
+          "title": "Revoke Hub resource",
+          "whatItDoes": "Revokes an active Hub resource assignment from a User, Agent, department/group, or process-agent scope.",
+          "whenToUse": "Use when the Owner wants to remove a previously assigned skill, App, workflow, connector, knowledge item, or template from a target.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "owner_ref",
+            "assignment_ref or resource_ref+target_ref"
+          ],
+          "outputRefs": [
+            "assignment_ref"
+          ],
+          "evidenceRequired": [
+            "assignment_revoked"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "explicit revoke only"
+          ],
+          "ref": "tool:owner.revoke_resource",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.capture_credential",
+          "title": "Capture target credential",
+          "whatItDoes": "Stores an Owner-provided secret for a specific user, agent, or company scope and returns only a credential_ref.",
+          "whenToUse": "Use only when the Owner explicitly provides a credential for that target. For private user credentials, ask the user to paste the value in their own Personal Agent chat.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "value (owner-provided secret)",
+            "label",
+            "kind?",
+            "scope user|agent|company",
+            "target_user_ref? or target_agent_ref?"
+          ],
+          "outputRefs": [
+            "credential_ref"
+          ],
+          "evidenceRequired": [
+            "owner_credential_captured"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "raw value stored behind credential boundary",
+            "explicit target required for user/agent scope"
+          ],
+          "ref": "tool:owner.capture_credential",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.write_skill",
+          "title": "Write company skill",
+          "whatItDoes": "Creates or updates a validated SKILL package in the Company library, optionally scoped directly to selected Agents.",
+          "whenToUse": "Use when the Owner wants to create or edit a reusable procedure; assign it with owner.assign_resource when an Agent should use it.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "skill_name",
+            "title",
+            "summary",
+            "when_to_use",
+            "body",
+            "agent_ref or agent_refs optional",
+            "required_capability_refs?"
+          ],
+          "outputRefs": [
+            "skill_ref",
+            "agent_refs"
+          ],
+          "evidenceRequired": [
+            "company_skill_written_by_owner",
+            "local_skill_written_by_owner"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "validated skill package only",
+            "agent refs must be same-company when provided"
+          ],
+          "ref": "tool:owner.write_skill",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.write_rule",
+          "title": "Write company rule",
+          "whatItDoes": "Creates or updates an owner-authored company Rule entry that can be assigned or loaded as governed context.",
+          "whenToUse": "Use when the Owner wants a durable company operating rule visible in the Company toolkit.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "rule_name",
+            "title?",
+            "summary",
+            "body"
+          ],
+          "outputRefs": [
+            "rule_ref"
+          ],
+          "evidenceRequired": [
+            "company_rule_written_by_owner"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "company scope only",
+            "no raw secrets"
+          ],
+          "ref": "tool:owner.write_rule",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.delete_rule",
+          "title": "Delete company rule",
+          "whatItDoes": "Removes an owner-authored company Rule by name. It stops applying and its on-disk copy is pruned on the next turn.",
+          "whenToUse": "Use when the Owner wants a company rule to no longer apply.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "rule_name"
+          ],
+          "outputRefs": [
+            "rule_ref"
+          ],
+          "evidenceRequired": [
+            "company_rule_deleted_by_owner"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "company scope only",
+            "no raw secrets"
+          ],
+          "ref": "tool:owner.delete_rule",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.write_workflow",
+          "title": "Write company workflow",
+          "whatItDoes": "Creates or updates an owner-authored company Workflow catalog entry without claiming a deterministic executor is ready.",
+          "whenToUse": "Use when the Owner wants to record a repeatable company workflow before assigning or turning it into runtime rails.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "workflow_name",
+            "title?",
+            "summary",
+            "status?",
+            "schedule_kind?",
+            "body"
+          ],
+          "outputRefs": [
+            "workflow_ref"
+          ],
+          "evidenceRequired": [
+            "company_workflow_written_by_owner"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "catalog entry only",
+            "no raw secrets"
+          ],
+          "ref": "tool:owner.write_workflow",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.write_template",
+          "title": "Write Agent template",
+          "whatItDoes": "Creates or updates an owner-authored company Agent template that Factory can use to prefill process-agent creation.",
+          "whenToUse": "Use when the Owner wants a reusable process-agent blueprint with default purpose, model, effort, and setup notes.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "template_name",
+            "title?",
+            "summary",
+            "purpose",
+            "default_model?",
+            "default_effort?",
+            "body"
+          ],
+          "outputRefs": [
+            "template_ref"
+          ],
+          "evidenceRequired": [
+            "company_template_written_by_owner"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "factory catalog only",
+            "no raw secrets"
+          ],
+          "ref": "tool:owner.write_template",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.write_connector",
+          "title": "Write company connector",
+          "whatItDoes": "Creates or updates a shared company Connector manifest with refs, HTTP policy, namespace, and tool routing metadata.",
+          "whenToUse": "Use when the Owner wants a shared app/API/browser connector to appear as a company resource before assigning it to Agents or groups.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "connector_name",
+            "app_name?",
+            "credential_refs?",
+            "browser_session_refs?",
+            "allowed_origins?",
+            "mcp_namespace",
+            "tool_name"
+          ],
+          "outputRefs": [
+            "connector_ref"
+          ],
+          "evidenceRequired": [
+            "company_connector_written_by_owner"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "refs only",
+            "no raw secrets",
+            "company scope only"
+          ],
+          "ref": "tool:owner.write_connector",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.write_context",
+          "title": "Write scoped context",
+          "whatItDoes": "Creates or updates owner-authored Context loaded lazily through TeamON context/memory. Default scope is company; explicit user/agent scopes are real.",
+          "whenToUse": "Use when the Owner wants company, user, or agent facts, playbooks, or reference notes to become available in the matching scope.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "context_name",
+            "title?",
+            "summary",
+            "scope?",
+            "agent_ref?",
+            "user_ref?",
+            "kind?",
+            "body"
+          ],
+          "outputRefs": [
+            "context_ref"
+          ],
+          "evidenceRequired": [
+            "company_context_written_by_owner",
+            "user_context_written_by_owner",
+            "agent_context_written_by_owner"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "lazy context only",
+            "scoped visibility law",
+            "no raw secrets"
+          ],
+          "ref": "tool:owner.write_context",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "owner",
+          "name": "owner.promote_skill",
+          "title": "Promote local skill",
+          "whatItDoes": "Promotes a validated local skill into a Hub skill after owner approval.",
+          "whenToUse": "Use when a local procedure should become reusable by other users or process agents.",
+          "adapter": "owner_mcp",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "owner_ref",
+            "skill_ref"
+          ],
+          "outputRefs": [
+            "hub_skill_ref"
+          ],
+          "evidenceRequired": [
+            "procedure_promoted_to_hub"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "validated skill package only"
+          ],
+          "ref": "tool:owner.promote_skill",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "ops",
+          "name": "ops.provision_bot",
+          "title": "Provision client bot service",
+          "whatItDoes": "Creates or verifies a TeamON client bot systemd service from refs, with the root work delegated to the owner-system helper and evidenced.",
+          "whenToUse": "Use when the Owner asks to add a new personal/client Telegram bot appliance or bring a bot service online.",
+          "adapter": "typed_helper",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "bot_token_ref",
+            "slug",
+            "port",
+            "telegram_owner_id",
+            "model_auth_ref? (optional; omit to inherit company token pool/server auth)",
+            "mode?"
+          ],
+          "outputRefs": [
+            "service_ref"
+          ],
+          "evidenceRequired": [
+            "ops_provision_bot_planned",
+            "ops_provision_bot_applied"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "credential refs only",
+            "bounded host-helper",
+            "no raw journal or host paths"
+          ],
+          "ref": "tool:ops.provision_bot",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "ops",
+          "name": "ops.deprovision_bot",
+          "title": "Deprovision client bot service",
+          "whatItDoes": "Stops/disables a TeamON client bot systemd service and removes its generated unit/env files through the owner-system helper.",
+          "whenToUse": "Use when the Owner explicitly asks to remove, delete, or disconnect a Telegram bot appliance/service.",
+          "adapter": "typed_helper",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "service_name or slug",
+            "mode?",
+            "stop?",
+            "disable?",
+            "remove_unit?",
+            "remove_env?"
+          ],
+          "outputRefs": [
+            "service_ref",
+            "active_state"
+          ],
+          "evidenceRequired": [
+            "ops_deprovision_bot_planned",
+            "ops_deprovision_bot_applied"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "TeamON client-bot service-name allowlist",
+            "bounded host-helper",
+            "no raw journal or host paths"
+          ],
+          "ref": "tool:ops.deprovision_bot",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "ops",
+          "name": "ops.service_state",
+          "title": "Read TeamON service state",
+          "whatItDoes": "Reads redacted systemd state for a TeamON Clean service without exposing logs or host paths.",
+          "whenToUse": "Use when the Owner asks whether a bot/service is running before or after a provisioning/restart action.",
+          "adapter": "typed_helper",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "service_name or slug"
+          ],
+          "outputRefs": [
+            "service_ref",
+            "state"
+          ],
+          "evidenceRequired": [
+            "owner_system_service_state_read"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "TeamON service-name allowlist",
+            "no raw journal or host paths"
+          ],
+          "ref": "tool:ops.service_state",
+          "tier": "T1",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "ops",
+          "name": "ops.restart_service",
+          "title": "Restart TeamON service",
+          "whatItDoes": "Restarts a TeamON Clean service through the owner-system helper and returns restart evidence.",
+          "whenToUse": "Use when the Owner explicitly asks to restart a TeamON bot/service or after a config/provisioning change needs activation.",
+          "adapter": "typed_helper",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "service_name or slug"
+          ],
+          "outputRefs": [
+            "service_ref",
+            "active_state"
+          ],
+          "evidenceRequired": [
+            "owner_system_service_restarted"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "TeamON service-name allowlist",
+            "bounded host-helper",
+            "no raw journal or host paths"
+          ],
+          "ref": "tool:ops.restart_service",
+          "tier": "T2",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        },
+        {
+          "namespace": "ops",
+          "name": "ops.configure_meet_ui",
+          "title": "Configure meeting UI",
+          "whatItDoes": "Updates the hosted TeamON Meet invite page and room UI theme through bounded text, color, logo, background, and CSS fields.",
+          "whenToUse": "Use when the Owner asks to tune the meeting/invite page branding, copy, layout, colors, or custom CSS for the public meeting room.",
+          "adapter": "typed_helper",
+          "visibleWhen": "owner_actor",
+          "inputRefs": [
+            "mode?",
+            "page_title?",
+            "brand_label?",
+            "invite_title?",
+            "invite_subtitle?",
+            "room_title?",
+            "room_hint?",
+            "footer_text?",
+            "logo_url?",
+            "accent_color?",
+            "background_css?",
+            "custom_css?",
+            "reset?"
+          ],
+          "outputRefs": [
+            "meet_ui_theme_ref",
+            "public_url?"
+          ],
+          "evidenceRequired": [
+            "ops_meet_ui_preview",
+            "ops_meet_ui_configured"
+          ],
+          "securityBoundary": [
+            "owner scope required",
+            "Meet sidecar token stays server-side",
+            "sanitized CSS only",
+            "no arbitrary JavaScript or host paths"
+          ],
+          "ref": "tool:ops.configure_meet_ui",
+          "tier": "T1",
+          "status": "ready",
+          "usableNow": true,
+          "rawValuesVisible": false,
+          "naturalLanguagePrimary": true,
+          "slashCommandFallbackOnly": true
+        }
+      ]
+    }
+  }
+}

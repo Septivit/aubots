@@ -163,7 +163,7 @@
         },
         {
           "name": "terminal.shell",
-          "status": "contract_only",
+          "status": "ready",
           "visibility": "internal"
         },
         {
